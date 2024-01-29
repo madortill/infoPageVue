@@ -124,7 +124,7 @@ html {
 }
 
 .titleFather {
-    background-image: url("./assets/emptyButton.svg");
+    background-image: url("@/assets/emptyButton.svg");
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 3%;

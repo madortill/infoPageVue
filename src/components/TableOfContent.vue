@@ -49,7 +49,6 @@ body, html {
     flex-direction: row;
     direction: rtl;
     flex-wrap: wrap;
-    height: 30vh;
     width: 100vw;
     justify-content: space-around;
     align-items: center;

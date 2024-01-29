@@ -1,36 +1,52 @@
 <template>
-            <div class='securityContainer' >
-            <div class='titleContainer'>
-                <img src="@/assets/securityIcon.svg" alt="security" class='securityIcon' />
-                <div class='titleNamesecurity'>בטיחות בדרכים</div>
-            </div>
-            <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
-            <div class='securityTextContainer'>
-                <div class='securityCenter'>
-                    <img src="@/assets/emptyButton.svg" alt="center" class='titleName' />
-                    <div class='centerText'>
-                        <p>כאן ייכנס טקסט</p>
-                    </div>
+    <div class='securityContainer'>
+        <div class='titleContainer'>
+            <img src="@/assets/securityIcon.svg" alt="security" class='securityIcon' />
+            <div class='titleNamesecurity'>בטיחות בדרכים</div>
+        </div>
+        <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
+        <div class='securityTextContainer'>
+            <div class='securityCenter'>
+                <TitleButton>הוראות הבטיחות למבקרים/אורחים:</TitleButton>
+                <div class='securityText'>
+                    בטיחות הינה האחריות של כל אחד: <br>
+                    נהלי בטיחות קריית ההדרכה, בריאות וסביבה וביטחון למבקרים בקריית ההדרכה. <br>
+                    כל משרת ועובד בקריית ההדרכה חייבים למלא אחר הוראות הבטיחות בקריית ההדרכה, לקיים את הוראות החוק ולהפעיל
+                    שיקול דעת בביצוע המשימות היומיות שלהם.
                 </div>
             </div>
-            <!-- {/* <img src={BaseMap} alt="base" class='baseLastPic' /> */} -->
+            <div class='securityCenter'>
+                <TitleButton>חניה</TitleButton>
+                <div class='securityText'>
+                    <ul>
+                        <li> מבקרים צריכים לחנות במקום מסודר על פי חוקי התנועה ( חניה חיצונית פנימית) </li>
+                        <li> חל איסור על כניסה וחניה של רכבים בשטחי המגורים.</li>
+                        <li> חל איסור חנייה באדום לבן, אדום-צהוב, רחבת כיבוי אש.</li>
+                        <li> זכור! האחריות לבטיחות היא גם עליך!</li>
+                        <li> לומדת בטיחות - <a href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לחץ כאן</a> או ניתן לפנות לקצין הבטיחות <a href="tel:+52-9247181">052-9247181</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </div>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
+import TitleButton from './TitleButton.vue';
 
-            }
+export default {
+    data() {
+        return {
+
         }
-    }
+    },
+    components: { TitleButton }
+}
 </script>
 
-<style>
+<style scoped>
 .securityContainer {
     margin-top: 2vh;
-    margin-bottom: 5vh;
     height: fit-content;
     position: relative;
     overflow: hidden;
@@ -48,16 +64,17 @@
     margin-left: 1vw;
 }
 
-.dentistText, .medicText, .centerText {
+.securityText {
     font-size: 1.7vh;
     font-weight: 600;
     direction: rtl;
-    margin-right: 5vw;
-    width: 60vw;
+    /* margin-right: 5vw; */
+    max-width: 80vw;
 }
 
 .securityTextContainer {
     margin-right: 8vw;
+    margin-bottom: 5vh;
 }
 
 p {
@@ -70,14 +87,6 @@ p {
     left: 2vw;
     top: 2vh;
     transform: rotate(90deg);
-}
-
-.baseLastPic {
-    height: 55vh;
-    width: 130vw;
-    position: relative;
-    left: 25vw;
-    bottom: 10vh;
 }
 
 </style>

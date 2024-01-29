@@ -1,44 +1,44 @@
 <template>
-            <div class='rabanut' >
-            <div class='containerrrrrr'>
-                <div class='rabTitleContainer'>
-                    <img src="@/assets/bookIcon.svg" alt="bus" class='bookIcon' />
-                    <div class='rabTitleName'>רבנות</div>
+    <div class='rabanut'>
+        <div class='containerrrrrr'>
+            <div class='rabTitleContainer'>
+                <img src="@/assets/bookIcon.svg" alt="bus" class='bookIcon' />
+                <div class='rabTitleName'>רבנות</div>
+            </div>
+            <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
+            <div class='rabText'>
+                <h6>שירותי הדת בקריית ההדרכה</h6>
+                <p>
+                    שירותי הרבנות בקריית ההדרכה כוללים:
+                    - תפילות כסדרן בשלושה בתי כנסת
+                    - ליווי גיור, ייעוץ אישי ומשפחתי, שיחות ושיעורים
+                    - זמנים מגדריים במתקני הספורט
+                    - כשרות בחדרי האוכל ובמתחמי ההסעדה (הכל מהדרין)
+                    - ציוד דת לכל דורש
+                    - שבתות וחגים עם רב אורח ופעילויות מיוחדות ברוח היהדות
+                </p>
+                <div>
+                    לפרטים, יש ליצור קשר עם אחראי כשרות ודת:
+                    <p>נאור בוכובזה: <a href="tel: + 052-6374225">052-6374225</a></p>
                 </div>
-                <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
-                <div class='rabText'>
-                    <h6>שירותי הדת בקריית ההדרכה</h6>
-                    <p>
-                        בקריית ההדרכה ישנם שלושה בתי כנסת ותפילות במניין בשעות שונות
-                        פיקוח כשרות בחדרי האוכל, במתחמי האוכל ובאירועים
-                        זמנים מגדריים לאימונים במתחם הספורט
-                        ליווי חיילים וחיילות בתהליך גיור
-                        שיעורים, חברותות, מרצים שונים ורב אורח בשבת
-                        שיחות אישיות לכל המעוניין/ת
-                        ציוד דת
-                    </p>
-                    <div>
-                        לפרטים, יש ליצור קשר עם אחראי כשרות ודת: 
-                        <p>נאור בוכובזה: <a href="tel: + 052-6374225">052-6374225</a></p>
-                    </div>
-                    <div>
-                        רב קריית ההדרכה, הרב ליאור בנימין: 
-                        <p><a href="tel: +054-695-6624" >054-6956624</a></p>
-                    </div>
+                <div>
+                    רב קריית ההדרכה, הרב ליאור בנימין:
+                    <p><a href="tel: +054-695-6624">054-6956624</a></p>
                 </div>
             </div>
-            <img src="@/assets/kneset.svg" alt="kneset" class='RabanutPic' />
         </div>
+        <img src="@/assets/kneset.svg" alt="kneset" class='RabanutPic' />
+    </div>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
+export default {
+    data() {
+        return {
 
-            }
         }
     }
+}
 </script>
 
 <style>
@@ -104,5 +104,4 @@
     top: 2vh;
     transform: rotate(90deg);
 }
-
 </style>

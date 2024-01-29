@@ -9,6 +9,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  break-inside: avoid;
+}
+
+ul {
+  margin-top: 0.5em;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
 /* scrollbar style */
 /* .scrollStyle {
   scrollbar-color: #e5e5e5 darkgrey;

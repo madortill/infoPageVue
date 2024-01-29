@@ -1,5 +1,5 @@
 <template>
-    <div class="foodContainer" >
+    <div class="foodContainer">
         <div class='titleContainer'>
             <img src="@/assets/foodIcon.svg" alt="icon" class='icon' />
             <div class='titleFood'>חדר אוכל</div>
@@ -8,81 +8,105 @@
         <div class='genericContainer'>
             <img src="@/assets/lunchroom.svg" alt="room" class='lunchPic' />
             <div class='genericText'>
-                בקריית ההדרכה ישנם 6 חדרי אוכל.
-                פעילים A, B, C, D אוכל חדרי
-                במהלך כל השבוע ובכל השעות
-                הנקובות.
-                חדר אוכל E הוא פיתייה ופעיל בימים
-                א׳-ה׳ במהלך שעות ארוחת הצהריים
-                בלבד.
+                בקריית ההדרכה ישנם 4 חדרי אוכל בישיבה הפועלים בכלל הארוחות וחדר אוכל אחד מהיר הפועל בארוחת צהריים. <br>
+                מידי שבוע מופץ ויסות חדרי אוכל
+                קרייתי במסרתו נקבעות שעות לכל
+                בה”ד, יש להקפיד להגיע בשעות
+                שהוקצו לבה”ד.
             </div>
             <div class='textContainerFood'>
-                <div>
+                <div class="openingHours keep-as-one">
                     <img src="@/assets/openHours.svg" alt="openHours" class='titleName' />
-                    <div class='openText'>
-                        <div>
-                            <b>ימי א׳ -ה׳-</b>
-                            <p>
-                                בוקר- 06:30-08:00
-                                צהריים- 11:30-14:00
-                                ערב- 18:00-20:00
-                            </p>
-                        </div>
-                        <div>
-                            <b>ימי שישי-</b>
-                            <p>
-                                בוקר- 06:30-08:00
-                                צהריים- 11:30-13:30
-                                ערב -משתנה בהתאם
-                                לכניסת השבת.
-                            </p>
-                        </div>
-                        <div>
-                            <b>ימי שבת-</b>
-                            <p>
-                                בוקר- 06:30-08:00
-                                צהריים- 11:30-14:30
-                                ערב- משתנה בהתאם לזמן
-                                יציאת שבת.
-                            </p>
-                        </div>
-                        <div>
-                            מידי שבוע מופץ ויסות חדרי אוכל
-                            קרייתי במסרתו נקבעות שעות לכל
-                            בה”ד, יש להקפיד להגיע בשעות
-                            שהוקצו לבה”ד.
-                        </div>
+                    <div class="text">
+                        <table dir="rtl">
+                            <tbody>
+                                <tr>
+                                    <th class="cell time">
+                                        <p>ימים:</p>
+                                    </th>
+                                    <th class="cell">
+                                        <p>א' &ndash; ה'</p>
+                                    </th>
+                                    <th class="cell">
+                                        <p>ימי שישי</p>
+                                    </th>
+                                    <th class="cell">
+                                        <p>ימי שבת</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td class="cell time">
+                                        <p>בוקר</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>06:30-08:00</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>06:30-08:00</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>06:30-08:00</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="cell time">
+                                        <p>צהריים</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>11:30-14:00</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>11:30-13:30</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>11:30-14:30</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="cell time">
+                                        <p>ערב</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>18:00-20:00</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>משתנה בהתאם לכניסת השבת</p>
+                                    </td>
+                                    <td class="cell">
+                                        <p>משתנה בהתאם לזמן יציאת שבת</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <img src="@/assets/middleMeal.svg" alt="middle" class='titleName' />
-                        <div class='middleText'>
-                            בקריית ההדרכה ניתן להזמין ולמשוך
-                            ארוחות ביניים מעמדת הפריסה
-                            שהוגדרה בצמוד לרמפה של המטבח.
-                            <p> איך מזמינים ארוחת ביניים?
-                                פנו לתכנון הצבאי של הבה״ד שלכם -
-                                דרישה למפקדת הסעדה - הזנה
-                                במערכת ניהול העיר - ובאמצעות
-                                מספר המפגש שלכם תוכלו למשוך
-                                את הפריסה.</p>
-                        </div>
+                <div class="middle keep-as-one">
+                    <img src="@/assets/middleMeal.svg" alt="middle" class='titleName' />
+                    <div class='middleText text'>
+                        בקריית ההדרכה ניתן להזמין ולמשוך
+                        ארוחות ביניים מעמדת הפריסה
+                        שהוגדרה במטבח.
+                        <p> איך מזמינים ארוחת ביניים?
+                            פנו לתכנון הצבאי של הבה״ד שלכם -
+                            דרישה למפקדת הסעדה - הזנה
+                            במערכת ניהול העיר - ובאמצעות
+                            מספר המפגש שלכם תוכלו למשוך
+                            את הפריסה.</p>
                     </div>
-                    <div>
-                        <img src="@/assets/kashrut.svg" alt="kasher" class='titleName' />
-                        <div class='kosherText'>
-                            <p>בשר גולמי וטחון חלק מהרבנות.
-                                מוצרי עוף רבנות מהדרין.</p>
-                            <p>ירקות ופירות שמיטא לחומרה.</p>
-                            <p>ירק עלי בפיקוח חרקים למהדרין.
-                                חומרי גלם ומוצרי חלב בד”צ העדה
-                                החרדית בחדר אוכל A. </p>
-                            <p>
-                                מס טלפון אחראי כשרות ודת-
-                                רס”ב נאור בוכובזה - <a href="tel: +0526374225">052-6374225</a>
-                            </p>
-                        </div>
+                </div>
+                <div class="kosher keep-as-one">
+                    <img src="@/assets/kashrut.svg" alt="kasher" class='titleName' />
+                    <div class='kosherText text'>
+                        <p>בשר גולמי וטחון חלק מהרבנות.
+                            מוצרי עוף רבנות מהדרין.</p>
+                        <p>ירקות ופירות שמיטא לחומרה.</p>
+                        <p>ירק עלי בפיקוח חרקים למהדרין.
+                            חומרי גלם ומוצרי חלב בד”צ העדה
+                            החרדית בחדר אוכל A. </p>
+                        <p>
+                            מס טלפון אחראי כשרות ודת-
+                            רס”ב נאור בוכובזה - <a href="tel: +0526374225">052-6374225</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -101,10 +125,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .icon {
     height: 4vh;
     width: 9vw;
+}
+
+.openingHours {
+    column-span: all;
 }
 
 .foodContainer {
@@ -146,9 +174,8 @@ export default {
     width: 22vw;
 }
 
-.middleText,
-.kosherText {
-    width: 45vw;
+.text {
+    min-width: 20ch;
     margin-right: 5vw;
     font-size: 1.7vh;
     font-weight: 600;
@@ -156,7 +183,6 @@ export default {
 }
 
 .openText {
-    width: 25vw;
     margin-right: 5vw;
     font-size: 1.7vh;
     font-weight: 600;
@@ -164,10 +190,7 @@ export default {
 }
 
 .textContainerFood {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
+    columns: 2;
     direction: rtl;
     position: relative;
     bottom: 14vh;
@@ -195,4 +218,28 @@ p {
     top: 2vh;
     transform: rotate(90deg);
 }
+
+.keep-as-one {
+    break-inside: avoid;
+}
+
+table {
+    width: 85vw;
+    table-layout: fixed;
+}
+
+.cell {
+    /* white-space: nowrap; */
+    direction: rtl;
+    border: 1px solid black;
+}
+
+th.cell {
+    font-weight: bold;
+}
+
+.time {
+    width: 11.5vw;
+}
+
 </style>
