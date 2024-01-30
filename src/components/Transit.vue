@@ -55,12 +55,6 @@ export default {
 </script>
 
 <style>
-body,
-html {
-    height: 100vh;
-    margin: 0;
-}
-
 .shuttleContainer {
     margin-top: 17vh;
 }

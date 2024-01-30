@@ -104,28 +104,28 @@
                             חלה חובת הצדעה בשטח היחידה מדרגת אל”ם ומעלה.
                             בשישי שבת וחג לא חלה החובה לחבישת כומתה.
                         </div>
+                        <div>
+                            <div>
+                                <TitleButton>חמ"ל קריית ההדרכה</TitleButton>
+                                <div class='hamalText'>
+                                    <p>
+                                        גורם אחראי על משימת
+                                        האבטחה ביחידה.
+                                    </p>
+                                    <p>
+                                        חמ״ל מבצעי למקרי חירום,
+                                        טלפון - <a href="tel: + 073-3772222"> 073-3772222</a>
+                                    </p>
+                                    <p>
+                                        טלפון מטכלי: 0747-2222
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
                 <img src="@/assets/base.svg" alt="base" class='basePic' />
-            </div>
-        </div>
-        <div class='textContainer2'>
-            <div>
-                <TitleButton>חמ"ל קריית ההדרכה</TitleButton>
-                <div class='hamalText'>
-                    <p>
-                        גורם אחראי על משימת
-                        האבטחה ביחידה.
-                    </p>
-                    <p>
-                        חמ״ל מבצעי למקרי חירום,
-                        טלפון - <a href="tel: + 073-3772222"> 073-3772222</a>
-                    </p>
-                    <p>
-                        טלפון מטכלי: 0747-2222
-                    </p>
-                </div>
             </div>
         </div>
     </div>
@@ -258,7 +258,7 @@ p {
     font-size: 1.7vh;
     font-weight: 600;
     direction: rtl;
-    width: 60vw;
+    width: 58vw;
 }
 
 .basePic {

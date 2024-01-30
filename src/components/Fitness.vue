@@ -5,49 +5,49 @@
             <div class='titleCenter'>פנאי וכושר</div>
         </div>
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
-        <div class='fitTextContainer'>
-            <div class='gymContainer'>
-                <img src="@/assets/gym.svg" class="titleNameGym" />
-                <div class='gymText'>
-                    מיקום -קריית הספורט, קומה 1
-                    שעות פתיחה-
-                    <p>א-ה 06:00-22:00</p>
+        <div class='gymContainer'>
+            <img src="@/assets/gym.svg" class="titleNameGym" />
+            <div class='gymText'>
+                מיקום -קריית הספורט, קומה 1
+                שעות פתיחה-
+                <p>א-ה 06:00-22:00</p>
+                <p>
+                    ו- 06:00-15:00
+                </p>
+                <p>
+                    שבת - 19:00-22:00
+                </p>
+                <p>
+                    שעות רישום לחדר כושר -
+                    14:00 - 12:00
+                </p> <br>
+                אימונים לאנשי הסגל יתקיימו בימים:
+                <div>
+                    ראשון 19:00 ספינינג
                     <p>
-                        ו- 06:00-15:00
+                        שלישי 18:30 פילאטיס
                     </p>
                     <p>
-                        שבת - 19:00-22:00
-                    </p>
-                    <p>
-                        שעות רישום לחדר כושר -
-                        14:00 - 12:00
-                    </p> <br>
-                    אימונים לאנשי הסגל יתקיימו בימים:
-                    <div>
-                        ראשון 19:00 ספינינג
-                        <p>
-                            שלישי 18:30 פילאטיס
-                        </p>
-                        <p>
-                            רביעי 18:00 חיזוק ויציבה
-                        </p>
-                    </div>
-                    <p>
-                        לרישום לאימונים: שיר מיכאלי <a href="tel:+58-6999493">058-6999493</a>
-                    </p>
-                    <br>
-                    <p>
-                        *הכניסה לחדר הכושר לאחר
-                        הרשמה והצגת חוגר בכניסה. <br>
-                        *כל מתאמן מחויב להגיע על
-                        מדי ספורט תקניים ועם מגבת
-                        אישית. <br>
-                        *כל מתאמן מעל גיל 23 או
-                        מתחת לפרופיל 72 נדרש
-                        לאישור רופא המאשר לו
+                        רביעי 18:00 חיזוק ויציבה
                     </p>
                 </div>
+                <p>
+                    לרישום לאימונים: שיר מיכאלי <a href="tel:+58-6999493">058-6999493</a>
+                </p>
+                <br>
+                <p>
+                    *הכניסה לחדר הכושר לאחר
+                    הרשמה והצגת חוגר בכניסה. <br>
+                    *כל מתאמן מחויב להגיע על
+                    מדי ספורט תקניים ועם מגבת
+                    אישית. <br>
+                    *כל מתאמן מעל גיל 23 או
+                    מתחת לפרופיל 72 נדרש
+                    לאישור רופא המאשר לו
+                </p>
             </div>
+        </div>
+        <div class='fitTextContainer'>
             <div class='libraryContainer'>
                 <img src="@/assets/libraryButton.png" alt="library" class='titleNameGym' />
                 <div class='libraryText'>
@@ -174,11 +174,11 @@ export default {
     position: relative;
 }
 
-/* .titleCenter {
+.titleCenter {
     font-size: 4vh;
     font-weight: 700;
     margin-left: 1vw;
- }  */
+ } 
 
 .fitTextContainer {
     margin-right: 7vw;
@@ -189,11 +189,22 @@ export default {
     height: fit-content;
 }
 
+.gymContainer {
+    font-size: 1.7vh;
+    font-weight: 600;
+    direction: rtl;
+}
 
 .gymText,
 .poolText,
 .libraryText {
     max-width: 93vw;
+}
+
+.gymText {
+    /* background: linear-gradient(180deg, #cae3ea, #88bbe3); */
+    width: 100vw;
+    padding-right: 7vw;
 }
 
 .poolText {

@@ -27,11 +27,6 @@ export default {
 </script>
 
 <style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
 .tableContainer {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,7 @@
 <template>
-  <div :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex] + ')' }" class="body">
+  <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
+    <img class="baseBgImg" :src="`src/assets/bg/topBg${currentBackgroundIndex}.svg`">
+    <!-- <TopBg class="baseBgImg" :colors="bgColors[currentBackgroundIndex]"></TopBg> -->
     <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" />
     <Speech ref="speech" />
     <TableOfContent ref="table" @clickedSubject="clickedSubject" />
@@ -31,12 +33,13 @@ import Equipment from './components/Equipment.vue';
 import Health from './components/Health.vue';
 import Security from './components/Security.vue';
 
-import Background1 from './assets/background1.jpeg';
-import Background2 from './assets/background2.jpeg';
-import Background3 from './assets/background3.jpeg';
-import Background4 from './assets/background4.jpeg';
+import Background1 from './assets/bg/background1.svg';
+import Background2 from './assets/bg/background2.svg';
+import Background3 from './assets/bg/background3.svg';
+import Background4 from './assets/bg/background4.svg';
 import Contact from './components/Contact.vue';
 import BaseMap from './BaseMap.vue';
+import TopBg from './components/topBg.vue';
 
 export default {
   components: {
@@ -53,11 +56,12 @@ export default {
     Health,
     Security,
     Contact,
-    BaseMap
-  },
+    BaseMap,
+    TopBg
+},
   data() {
     return {
-      currentBackgroundIndex: Math.floor(Math.random() * (4 - 1) + 1),
+      currentBackgroundIndex: Math.floor(Math.random() * (5 - 1) + 1),
       bgOption: [
         Background1,
         Background2,
@@ -85,16 +89,26 @@ export default {
     },
   },
 };
+
+console.log('put filter on background!!!!!!!')
 </script>
 
 <style>
 body,
 html {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   overflow-x: hidden;
   font-family: "assistant";
   direction: rtl;
+}
+
+.baseBgImg {
+  height: 97vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @font-face {
@@ -103,7 +117,21 @@ html {
 }
 
 .body {
+  height: fit-content;
+  margin-top: 3vh;
   width: 100vw;
-  background-size: cover;
+  /* background-image: url("@/assets/baseBgImage.png"), url("@/assets/background.svg");
+  background-size: 100vh 100vw;
+  background-repeat: no-repeat, repeat; */
+  /* position: relative;
+  z-index: 1; */
+  position: relative;
+  background-repeat: no-repeat round;
+  background-position-y: 81vh;
+  /* background-size: 100vw auto; */
 }
+
+/* hue-rotate(36deg) saturate(0.5);
+hue-rotate(-111.26deg) saturate(1.1)
+hue-rotate(-152deg); */
 </style>

@@ -12,15 +12,11 @@
 </script>
 
 <style>
-body,
-html {
-    margin: 0;
-    height: 100vh;
-}
-
 .bodySpeech {
     height: 100%;
     margin-top: 3vh;
+    position: relative;
+    z-index: 2;
 }
 
 .building {

@@ -59,6 +59,8 @@ export default {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    gap: 2vw;
 }
 
 .containerrrrrr {
