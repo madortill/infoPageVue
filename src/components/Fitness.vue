@@ -174,6 +174,12 @@ export default {
     position: relative;
 }
 
+/* .titleCenter {
+    font-size: 4vh;
+    font-weight: 700;
+    margin-left: 1vw;
+ }  */
+
 .fitTextContainer {
     margin-right: 7vw;
     padding-bottom: 3vh;

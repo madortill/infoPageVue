@@ -1,19 +1,19 @@
 <template>
-  <div :style="{ backgroundImage: 'url(' + bgOption[currentBackground] + ')' }" class="body">
-    <OpeningPage :currentBackground="currentBackground" @clickedArrow="clickedArrow" />
+  <div :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex] + ')' }" class="body">
+    <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" />
     <Speech ref="speech" />
     <TableOfContent ref="table" @clickedSubject="clickedSubject" />
-    <!-- <Transit ref="buses" /> -->
-    <!-- <FoodCourt ref="lunch" @goBack="goback" /> -->
-     <Service ref="service" @goBack="goback" />
-    <!-- <Rabanut ref="rabanut" @goBack="goback" /> -->
-    <!-- <Center ref="center" @goBack="goback"></Center> -->
+    <Transit ref="buses" />
+    <FoodCourt ref="lunch" @goBack="goback" />
+    <Service ref="service" @goBack="goback" />
+    <Rabanut ref="rabanut" @goBack="goback" />
+    <ShoppingCenter ref="shoppingCenter" @goBack="goback"></ShoppingCenter>
     <Fittness ref="fitness" @goBack="goback" />
-    <!-- <Equipment ref="equip" @goBack="goback" /> -->
-    <!-- <Health ref="health" @goBack="goback" /> -->
-    <!-- <Security ref="security" @goBack="goback" /> -->
+    <Equipment ref="equip" @goBack="goback" />
+    <Health ref="health" @goBack="goback" />
+    <Security ref="security" @goBack="goback" />
     <BaseMap ref="baseMap" @goBack="goback"></BaseMap>
-    <!-- <Contact ref="contact"></Contact> -->
+    <Contact ref="contact"></Contact>
   </div>
 </template>
 
@@ -25,7 +25,7 @@ import Transit from './components/Transit.vue';
 import FoodCourt from './components/FoodCourt.vue';
 import Service from './components/Service.vue';
 import Rabanut from './components/Rabanut.vue';
-import Center from './components/Center.vue';
+import ShoppingCenter from './components/ShoppingCenter.vue';
 import Fittness from './components/Fitness.vue';
 import Equipment from './components/Equipment.vue';
 import Health from './components/Health.vue';
@@ -47,27 +47,29 @@ export default {
     FoodCourt,
     Service,
     Rabanut,
-    Center,
+    ShoppingCenter,
     Fittness,
     Equipment,
     Health,
     Security,
     Contact,
     BaseMap
-},
+  },
   data() {
     return {
-      currentBackground: `bg${Math.floor(Math.random() * (4 - 1) + 1)}`,
-      bgOption: {
-        bg1: Background1,
-        bg2: Background2,
-        bg3: Background3,
-        bg4: Background4,
-      },
+      currentBackgroundIndex: Math.floor(Math.random() * (4 - 1) + 1),
+      bgOption: [
+        Background1,
+        Background2,
+        Background3,
+        Background4,
+      ]
     };
   },
   computed: {
-
+    currentBackground() {
+      return
+    }
   },
   methods: {
     clickedSubject(refName) {
@@ -86,7 +88,8 @@ export default {
 </script>
 
 <style>
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   overflow-x: hidden;

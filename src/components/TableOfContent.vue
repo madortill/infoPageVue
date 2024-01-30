@@ -5,7 +5,7 @@
             <img src="@/assets/busesButton.svg" alt="buses" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/lunchButton.svg" alt="lunch" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/serviceButton.svg" alt="service" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
-            <img src="@/assets/centerButton.svg" alt="center" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
+            <img src="@/assets/centerButton.svg" alt="shoppingCenter" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/fitnessButton.svg" alt="fitness" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/equipButton.svg" alt="equip" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/rabanutButton.svg" alt="rabanut" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />

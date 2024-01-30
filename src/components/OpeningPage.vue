@@ -1,7 +1,7 @@
 <template>
     <div className='openContainer'>
         <div className="topContainer">
-            <img :src="titleOption[`title${currentBackgroundNum}`]" alt="title" className='title' />
+            <img :src="titleOption[`title${currentBackgroundIndex}`]" alt="title" className='title' />
             <img src="@/assets/logo.png" alt="logo" className='logo' />
             <img src="@/assets/slogan.png" alt="slogan" className='slogan' />
         </div>
@@ -26,11 +26,8 @@ export default {
             }
         }
     },
-    props: ["currentBackground"],
+    props: ["currentBackgroundIndex"],
     computed:  {
-        currentBackgroundNum () { 
-            return (this.currentBackground.charAt(this.currentBackground.length - 1));
-        }
     }
 }
 </script>

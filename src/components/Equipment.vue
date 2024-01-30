@@ -1,5 +1,5 @@
 <template>
-    <div class='equipContainer' >
+    <div class='equipContainer'>
         <div class='titleContainer'>
             <img src="@/assets/tankIcon.svg" alt="tank" class='equipIcon' />
             <div class='equipTitle'>ציוד צבאי</div>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class='windowContainer'>
+            <!-- <div class='windowContainer'>
                 <img src="@/assets/tikshuvWindow.svg" alt="Window" class='titleName' />
                 <div>
                     <p>
@@ -96,9 +96,9 @@
                         18:00 - 13:00 , 08:00-12:00, 19:00-20:00
                     </p>
                 </div>
-            </div>
+            </div> -->
             <div class='merkazContainer'>
-                <img src="@/assets/tikshuvCenter.svg" alt="merkaz" class='titleName' />
+                <TitleButton><span class="nobreak">מרכז תקשוב (מרת"ק)</span></TitleButton>
                 <div>
                     מרת”ק, מספק ציוד תקשובי
                     וכולל מעבדות תקשוב.
@@ -119,38 +119,19 @@
             <img src="@/assets/gunsCenter.svg" alt="guns" class='titleNameGuns' />
             <div class='gunsText'>
                 <div>
-                    מתן מענה בתחום הנשק והתחמושת.
-                </div>
-                <div>
-                    קורסים והכשרות מגיעים בתיאום מראש ע"י המפקדים,
-                    בהתאם לשעות הפעילות:
-                    <p>
-                        יום א': ,9:30-11:45 .13:00-16:30
-                    </p>
-                    <p>
-                        יום ב'- ד': ,8:00-11:45 .13:00:16:30
-                    </p>
-                    <p>
-                        יום ה': ,8:00-11:45 .13:00-15:00
-                    </p>
-                    <p>
-                        יום ו': 8:00-9:00 (איפסונים בלבד ובתיאום מראש).
-                    </p>
-                    <div>
-                        אנשי סגל רשאים להגיע עצמאית בלא תיאום מראש בהתאם לשעות הפעילות:
-                        <p>
-                            יום א': ,9:30-11:45 .13:00-17:00
-                        </p>
-                        <p>
-                            יום ב'-ד': ,8:00-13:45 .13:00-17:00
-                        </p>
-                        <p>
-                            יום ה'- ,8:00-11:45 .13:00-15:00
-                        </p>
-                        <p>
-                            עבור כל פתיחה מעבר לשעות הפעילות נדרש לקבל אישור אל"ם.
-                        </p>
-                    </div>
+                    <p>מתן מענה בתחום הנשק והתחמושת. </p>
+                    <p>קורסים והכשרות מגיעים בתיאום מראש ע"י המפקדים, בהתאם לשעות הפעילות:</p>
+                    <p>יום א': 09:30-11:45, 13:00-16:30.</p>
+                    <p>יום ב'- ד': 08:00-11:45, 13:00-16:30.</p>
+                    <p>יום ה': 08:00-11:45, 13:00-15:00.</p>
+                    <p>יום ו': 08:00-09:00 (איפסונים בלבד ובתיאום מראש).</p>
+                    <br>
+                    <p>אנשי סגל רשאים להגיע עצמאית בלא תיאום מראש בהתאם לשעות הפעילות:</p>
+                    <p>יום א': 09:30-11:45, 13:00-17:00.</p>
+                    <p>יום ב'- ד': 08:00-13:45, 13:00-17:30.</p>
+                    <p>יום ה': 08:00-11:45, 13:00-15:00.</p>
+                    <p>עבור כל פתיחה מעבר לשעות הפעילות נדרש לקבל אישור אל"ם.</p>
+
                 </div>
             </div>
         </div>
@@ -158,17 +139,18 @@
 </template>
 
 <script>
+import TitleButton from './TitleButton.vue';
+
 export default {
     name: 'Equipment',
     data() {
-        return {
-
-        }
-    }
+        return {};
+    },
+    components: { TitleButton }
 }
 </script>
 
-<style>
+<style scoped>
 .equipContainer {
     margin-top: 2vh;
     position: relative;
@@ -192,21 +174,15 @@ export default {
     font-size: 1.7vh;
     font-weight: 600;
     direction: rtl;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100vh;
 }
 
 .afsankolContainer,
-.marlogContainer {
-    width: 50vw;
-}
-
+.marlogContainer,
 .merkazContainer,
 .windowContainer {
-    width: 30vw;
+    max-width: 85vw;
 }
+
 
 .titleNameGuns {
     font-size: 4vh;
@@ -234,5 +210,6 @@ export default {
 
 .gunsCenterContainer {
     margin-right: 7vw;
+    margin-top: 3vh;
 }
 </style>

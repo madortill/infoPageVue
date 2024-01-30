@@ -1,8 +1,8 @@
 <template>
     <div class='mapContainer'>
         <div>
-            <img src="@/assets/mapIcon.svg" alt="map" class='mapIcon' />
             <div class='titleNameMap'>מפת הבסיס</div>
+            <img src="@/assets/mapIcon.svg" alt="map" class='mapIcon' />
         </div>
         <div class="image-father">
             <img src="/map.png" class="map-pic" @click="toggler = !toggler" alt="מפת הבסיס">
@@ -53,6 +53,7 @@ export default {
 
 <style scoped>
 .mapContainer {
+    position: relative;
     margin-top: 2vh;
     height: fit-content;
     display: flex;

@@ -8,7 +8,7 @@
         <div class='textContainer'>
             <div class='container1'>
                 <div>
-                    <img src="@/assets/2000Button.png" alt="2000" class='titleName' />
+                    <TitleButton>מוקד 2000</TitleButton>
                     <div class='mokedText'>
                         נתקלתם בתקלה? התקשרו
                         למוקד הזכיין ופתחו קריאה
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="@/assets/yohalamButton.png" alt="yohalam" class='titleName' />
+                        <TitleButton>יוהל"ם ומהו"ת</TitleButton>
                         <div class='yohalamText'>
                             <p>
                                 מרכז המעניק טיפול רגשי, סיוע
@@ -30,38 +30,39 @@
                                 במקרים של פגיעה מינית, אלימות
                                 במשפחה ובין בני זוג ובמקרים של
                                 היריון בלתי מתוכנן.
-                            </p>
-                            <p>
                                 מהו”ת- מרכז התמודדות ותמיכה:
-                            </p>
-                            <p>
                                 <a href="tel: +1111">1111</a> שלוחה 5 2
                                 או בווטסאפ-
                                 <a href="https://api.whatsapp.com/send?phone=0529282398&text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20">052-9282398</a>
                             </p>
                         </div>
                     </div>
-                    <div>
+                    <!-- <div>
                         <img src="@/assets/mokedMichshuv.svg" alt="michshuv" class='titleName1' />
                         <div class='michshuvText'>
                             <p>
-                                בניין המפקדה (206) קומה -1 (חלון קבלה
+                                בניין המפקדה (206) קומה 1- (חלון קבלה
                                 בחניית מפקדת קרה”ד)
-                            </p>
-                            <p>
                                 ניתן לפנות דרך הטלפון:
-                            </p>
-                            <p>
                                 <a href="tel: +073-3772000">073-3772000</a> שלוחה 2.
                                 שעות פעילות: 8:30-12:00 13:00-18:00
                             </p>
+                        </div> -->
+                    <div>
+                        <TitleButton>עמדת חוגרים</TitleButton>
+                        <div class='michshuvText'>
+                            <p>שעות פתיחה:<br>
+                                 יום א’ - ד’: <span class="nobreak">08:30-17:00</span> <br> &nbsp<span class="nobreak"> הפסקה בין השעות 12:00-13:00</span></p>
+                            <p>יום ה- 8:30 - 12:00</p>
+                            <p>טלפון מטכ”לי 0747-2345</p>
+                            <p>טלפון אזרחי <a href="tel: +0733772345">073-3772345</a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class='container2'>
                 <div>
-                    <img src="@/assets/barberButton.png" alt="barber" class='titleName' />
+                    <TitleButton>מספרה</TitleButton>
                     <div class='barberText'>
                         תאמו תור מראש והסתפרו
                         במרכז המסחרי בבסיס-
@@ -71,7 +72,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="@/assets/tash.png" alt="tash" class='titleName' />
+                    <TitleButton>ת"ש</TitleButton>
                     <div class='tashText'>
                         טיפול בבקשות ת״ש ,סיוע
                         כלכלי ובירור זכאויות ותנאי
@@ -80,7 +81,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="@/assets/education.svg" alt="educ" class='titleName' />
+                    <TitleButton>חינוך</TitleButton>
                     <div class='educText'>
                         <p>תפקידי מדור החינוך בקריית
                             ההדרכה- לספק שירותי חינוך עבור
@@ -96,20 +97,12 @@
             </div>
             <div class='discContainer'>
                 <div class='displine'>
-                    <img src="@/assets/discipline.svg" alt="discpline" class='titleName' />
+                    <TitleButton>משמעת</TitleButton>
                     <div class='discText'>
                         <div>
                             בקריית ההדרכה ינועו עם כומתה על הראש כלל המשרתים.
                             חלה חובת הצדעה בשטח היחידה מדרגת אל”ם ומעלה.
                             בשישי שבת וחג לא חלה החובה לחבישת כומתה.
-                        </div>
-                        <div>
-                            <p>עמדת חוגרים</p>
-                            <p>שעות פתיחה:</p>
-                            <p>יום א’ - ד ,08:30-12:00 13:00-17:00</p>
-                            <p>יום ה- 8:30 - 12:00</p>
-                            <p>טלפון מטכ”לי 0747-2345</p>
-                            <p>טלפון אזרחי <a href="tel: +0733772345">073-3772345</a></p>
                         </div>
                     </div>
 
@@ -119,7 +112,7 @@
         </div>
         <div class='textContainer2'>
             <div>
-                <img src="@/assets/hamal.png" alt="hamal" class='titleName2' />
+                <TitleButton>חמ"ל קריית ההדרכה</TitleButton>
                 <div class='hamalText'>
                     <p>
                         גורם אחראי על משימת
@@ -139,13 +132,10 @@
 </template>
 
 <script>
+import TitleButton from './TitleButton.vue';
 export default {
     name: "Service",
-    data() {
-        return {
-
-        }
-    }
+    components: {TitleButton}
 }
 </script>
 
@@ -205,6 +195,7 @@ export default {
     flex-wrap: wrap;
     align-content: space-around;
     direction: rtl;
+    margin-right: 5vw;
     /* margin: 2vh 0vh; */
 }
 
@@ -241,7 +232,7 @@ export default {
 .mokedText,
 .hamalText,
 .PPPText {
-    margin-right: 5vw;
+    /* margin-right: 5vw; */
     font-size: 1.7vh;
     font-weight: 600;
     direction: rtl;
