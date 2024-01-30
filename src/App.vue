@@ -3,15 +3,16 @@
     <OpeningPage :currentBackground="currentBackground" @clickedArrow="clickedArrow" />
     <Speech ref="speech" />
     <TableOfContent ref="table" @clickedSubject="clickedSubject" />
-    <!-- <Transit ref="buses" />
-    <FoodCourt ref="lunch" @goBack="goback" />
-    <Service ref="service" @goBack="goback" /> -->
-    <Rabanut ref="rabanut" @goBack="goback" />
-    <Center ref="center" @goBack="goback"></Center>
+    <!-- <Transit ref="buses" /> -->
+    <!-- <FoodCourt ref="lunch" @goBack="goback" /> -->
+     <Service ref="service" @goBack="goback" />
+    <!-- <Rabanut ref="rabanut" @goBack="goback" /> -->
+    <!-- <Center ref="center" @goBack="goback"></Center> -->
     <Fittness ref="fitness" @goBack="goback" />
-    <!-- <Equipment ref="equip" @goBack="goback" />
-    <Health ref="health" @goBack="goback" />
-    <Security ref="security" @goBack="goback" /> -->
+    <!-- <Equipment ref="equip" @goBack="goback" /> -->
+    <!-- <Health ref="health" @goBack="goback" /> -->
+    <!-- <Security ref="security" @goBack="goback" /> -->
+    <BaseMap ref="baseMap" @goBack="goback"></BaseMap>
     <!-- <Contact ref="contact"></Contact> -->
   </div>
 </template>
@@ -35,6 +36,7 @@ import Background2 from './assets/background2.jpeg';
 import Background3 from './assets/background3.jpeg';
 import Background4 from './assets/background4.jpeg';
 import Contact from './components/Contact.vue';
+import BaseMap from './BaseMap.vue';
 
 export default {
   components: {
@@ -50,7 +52,8 @@ export default {
     Equipment,
     Health,
     Security,
-    Contact
+    Contact,
+    BaseMap
 },
   data() {
     return {

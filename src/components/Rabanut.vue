@@ -1,34 +1,34 @@
 <template>
     <div class='rabanut'>
+        <div class='rabTitleContainer'>
+            <img src="@/assets/bookIcon.svg" alt="bus" class='bookIcon' />
+            <div class='rabTitleName'>רבנות</div>
+        </div>
         <div class='containerrrrrr'>
-            <div class='rabTitleContainer'>
-                <img src="@/assets/bookIcon.svg" alt="bus" class='bookIcon' />
-                <div class='rabTitleName'>רבנות</div>
-            </div>
             <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
             <div class='rabText'>
-                <h6>שירותי הדת בקריית ההדרכה</h6>
-                <p>
                     שירותי הרבנות בקריית ההדרכה כוללים:
-                    - תפילות כסדרן בשלושה בתי כנסת
-                    - ליווי גיור, ייעוץ אישי ומשפחתי, שיחות ושיעורים
-                    - זמנים מגדריים במתקני הספורט
-                    - כשרות בחדרי האוכל ובמתחמי ההסעדה (הכל מהדרין)
-                    - ציוד דת לכל דורש
-                    - שבתות וחגים עם רב אורח ופעילויות מיוחדות ברוח היהדות
-                </p>
-                <div>
-                    לפרטים, יש ליצור קשר עם אחראי כשרות ודת:
-                    <p>נאור בוכובזה: <a href="tel: + 052-6374225">052-6374225</a></p>
-                </div>
-                <div>
-                    רב קריית ההדרכה, הרב ליאור בנימין:
-                    <p><a href="tel: +054-695-6624">054-6956624</a></p>
-                </div>
+                    <ul>
+                        <li>תפילות כסדרן בשלושה בתי כנסת</li>
+                        <li>ליווי גיור, ייעוץ אישי ומשפחתי, שיחות ושיעורים</li>
+                        <li>זמנים מגדריים במתקני הספורט</li>
+                        <li>כשרות בחדרי האוכל ובמתחמי ההסעדה (הכל מהדרין)</li>
+                        <li>ציוד דת לכל דורש</li>
+                        <li>שבתות וחגים עם רב אורח ופעילויות מיוחדות ברוח היהדות</li>
+                    </ul>
+                    <div>
+                        לפרטים מלאים ולהרחבה, ניתן לפנות לרב קריית ההדרכה , הרב ליאור
+                        בטלפון <a href="tel: +054-695-6624">054-6956624</a>
+                        ובווצאפ <a href="https://api.whatsapp.com/send?phone=054-695-6624&text=">לחץ כאן</a>
+    
+                        בתחומי כשרות וציוד ניתן לפנות לראש תחום דת, נאור
+                        בטלפון <a href="tel: + 052-6374225">052-6374225</a>
+                        ובווצאפ <a href="https://api.whatsapp.com/send?phone=052-6374225&text=" class="nobreak">לחץ כאן</a>
+                    </div>
+                <img src="@/assets/kneset.svg" alt="kneset" class='RabanutPic' />
             </div>
         </div>
-        <img src="@/assets/kneset.svg" alt="kneset" class='RabanutPic' />
-    </div>
+            </div>
 </template>
 
 <script>
@@ -49,8 +49,9 @@ export default {
 
 .rabanut {
     margin-top: 4vh;
-    height: 50vh;
+    /* height: 50vh; */
     position: relative;
+    margin-bottom: 4vh;
 }
 
 .rabTitleContainer {
@@ -61,15 +62,12 @@ export default {
 }
 
 .containerrrrrr {
-    display: flex;
-    flex-direction: column;
     margin-right: 5vw;
     font-size: 1.7vh;
     font-weight: 600;
-    width: 55vw;
+    width: 63vw;
     margin-right: 30vw;
     direction: rtl;
-    align-items: center;
 }
 
 .rabTitleName {
@@ -81,9 +79,9 @@ export default {
 }
 
 .RabanutPic {
-    position: relative;
-    left: 55vw;
-    bottom: 35vh;
+    position: absolute;
+    left: 71vw;
+    top: 5vh;
     height: 50vh;
 }
 
@@ -103,5 +101,9 @@ export default {
     left: 2vw;
     top: 2vh;
     transform: rotate(90deg);
+}
+
+.bigger {
+    font-size: 1.1em;
 }
 </style>

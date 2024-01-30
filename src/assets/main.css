@@ -20,6 +20,17 @@ ul {
 .nobreak {
   white-space: nowrap;
 }
+
+/* avoid linebreak inside phone anchors */
+a[href^="tel:"] {
+  white-space: nowrap;
+}
+
+.fslightbox-toolbar {
+  left: 0 !important;
+  right: revert !important;
+}
+
 /* scrollbar style */
 /* .scrollStyle {
   scrollbar-color: #e5e5e5 darkgrey;

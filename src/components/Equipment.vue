@@ -220,7 +220,6 @@ export default {
     font-size: 1.7vh;
     font-weight: 600;
     direction: rtl;
-    text-align: center;
     margin-top: 1vh;
 }
 
@@ -234,8 +233,6 @@ export default {
 }
 
 .gunsCenterContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-right: 7vw;
 }
 </style>
