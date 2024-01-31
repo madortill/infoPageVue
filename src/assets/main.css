@@ -31,6 +31,10 @@ a[href^="tel:"] {
   right: revert !important;
 }
 
+.fslightbox-container {
+  touch-action: auto !important;
+}
+
 /* scrollbar style */
 /* .scrollStyle {
   scrollbar-color: #e5e5e5 darkgrey;
