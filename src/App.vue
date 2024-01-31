@@ -1,6 +1,6 @@
 <template>
   <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
-    <img class="baseBgImg" :src="`src/assets/bg/topBg${currentBackgroundIndex}.svg`">
+    <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]">
     <!-- <TopBg class="baseBgImg" :colors="bgColors[currentBackgroundIndex]"></TopBg> -->
     <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" />
     <Speech ref="speech" />
@@ -33,10 +33,16 @@ import Equipment from './components/Equipment.vue';
 import Health from './components/Health.vue';
 import Security from './components/Security.vue';
 
-import Background1 from './assets/bg/background1.svg';
-import Background2 from './assets/bg/background2.svg';
-import Background3 from './assets/bg/background3.svg';
-import Background4 from './assets/bg/background4.svg';
+import Background1 from '/bg/background1.svg';
+import Background2 from '/bg/background2.svg';
+import Background3 from '/bg/background3.svg';
+import Background4 from '/bg/background4.svg';
+
+import topBg1 from '/bg/topBg1.svg';
+import topBg2 from '/bg/topBg2.svg';
+import topBg3 from '/bg/topBg3.svg';
+import topBg4 from '/bg/topBg4.svg';
+
 import Contact from './components/Contact.vue';
 import BaseMap from './BaseMap.vue';
 import TopBg from './components/topBg.vue';
@@ -58,7 +64,7 @@ export default {
     Contact,
     BaseMap,
     TopBg
-},
+  },
   data() {
     return {
       currentBackgroundIndex: Math.floor(Math.random() * (5 - 1) + 1),
@@ -67,6 +73,12 @@ export default {
         Background2,
         Background3,
         Background4,
+      ],
+      topBg: [
+        topBg1,
+        topBg2,
+        topBg3,
+        topBg4
       ]
     };
   },
@@ -90,7 +102,7 @@ export default {
   },
 };
 
-console.log('put filter on background!!!!!!!')
+
 </script>
 
 <style>
