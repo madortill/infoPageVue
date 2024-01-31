@@ -2,7 +2,7 @@
     <div class='securityContainer'>
         <div class='titleContainer'>
             <img src="@/assets/securityIcon.svg" alt="security" class='securityIcon' />
-            <div class='titleNamesecurity'>בטיחות בדרכים</div>
+            <div class='titleNamesecurity'>בטיחות</div>
         </div>
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='securityTextContainer'>
@@ -13,8 +13,8 @@
                     נהלי בטיחות קריית ההדרכה, בריאות וסביבה וביטחון למבקרים בקריית ההדרכה. <br>
                     כל משרת ועובד בקריית ההדרכה חייבים למלא אחר הוראות הבטיחות בקריית ההדרכה, לקיים את הוראות החוק ולהפעיל
                     שיקול דעת בביצוע המשימות היומיות שלהם. <br>
-                    לנהלי בטיחות קריית ההדרכה כנס <a href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לכאן</a>.<br>
-                     או ניתן לפנות לקצין הבטיחות <a href="tel:+52-9247181">052-9247181.</a>
+                    לנהלי בטיחות קריית ההדרכה כנס <a target="_blank" rel="noopener noreferrer" href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לכאן</a>.<br>
+                     או ניתן לפנות לקצין הבטיחות שלמה <a href="tel:+52-9247181">052-9247181.</a>
                 </div>
             </div>
             <div class='securityCenter'>
@@ -22,8 +22,8 @@
                 <b>חניה</b>
                 <div class='securityText'>
                     <ul>
-                        <li> מבקרים צריכים לחנות במקום מסודר על פי חוקי התנועה ( חניה חיצונית פנימית) </li>
-                        <li> חל איסור על כניסה וחניה של רכבים בשטחי המגורים.</li>
+                        <li> מבקרים צריכים להחנות במקום מסודר על פי חוקי התנועה (בחנייה החיצונית והפנימית) </li>
+                        <li> חל איסור על כניסה וחנייה של רכבים בשטחי המגורים.</li>
                         <li> חל איסור חנייה באדום לבן, אדום-צהוב, רחבת כיבוי אש.</li>
                     </ul>
 

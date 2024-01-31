@@ -2,7 +2,7 @@
     <div id="contact">
         <div class='contactTitleContainer'>
             <!-- <img src="@/assets/heartIcon.svg" alt="Heart" class='heartIcon' /> -->
-            <div class='titleCenter'>תיבת פניות למפקד</div>
+            <div class='titleCenter'>תיבת פניות למפקד קריית ההדרכה</div>
         </div>
         <div class="father">
             <img class='mailbox' src="@/assets/envelope.svg">
@@ -57,5 +57,9 @@ export default {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+}
+
+.titleCenter {
+    font-size: clamp(3vw, 4vh, 7vw);
 }
 </style>

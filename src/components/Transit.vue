@@ -27,10 +27,10 @@
                         שאטל הינו שירות היסעים עבור חיילי צה"ל.
                         בקריית ההדרכה יש מערך היסעים נרחב המשרת את כלל חיילי הבסיס.
                         בשביל לנסוע בשאטל, יש להוריד את אפליקציית שאטל ולהירשם במהלך השבוע בכדי להבטיח את מקומכם.
-                        <a href="https://onelink.to/jq7h8k">להורדה</a> <br><br>
+                        <a target="_blank" rel="noopener noreferrer" href="https://onelink.to/jq7h8k">להורדה</a> <br><br>
                         בימי חמישי + שישי ישנם שאטלים המסיעים את החיילים מקריית ההדרכה ל-20 מוקדים ברחבי הארץ. <br>
                         בימי ראשון ישנם 32 מוקדי איסוף מכל הארץ המסיעים את החיילים לקריית ההדרכה.<br>
-                        <a class='link'
+                        <a class='link' target="_blank" rel="noopener noreferrer"
                             href="https://drive.google.com/file/d/1Lq49ytTX-kpftVejXVa2G9eP0kYdf0FK/view?usp=drivesdk">הידעת
                             נסעת</a> - כל מה שצריך לדעת בדרך חזרה לבסיס!
                         <br>
@@ -40,7 +40,7 @@
                         <b class="title">תחבורה ציבורית</b>
                         מטרופולין קו 170 מגיע לש"ג המרכזי ולמרפ"א דרום מתחנה מרכזית באר שבע ולהפך.
                         תיקוף הנסיעה בתחבורה ציבורית מתבצע ע"י שימוש באפליקציית זוזו. <br>
-                        <a href="https://drive.google.com/file/d/1OX1FKziHBlVdEuIlrtNSwqpXNJJQvksd/view?usp=drivesdk">הסבר על אפליקצית זוזו</a><br>
+                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1OX1FKziHBlVdEuIlrtNSwqpXNJJQvksd/view?usp=drivesdk">הסבר על אפליקצית זוזו</a><br>
                         שימו לב הקו לא פועל בעת שעות פעילות השאטלים.
                     </div>
 

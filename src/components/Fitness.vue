@@ -7,9 +7,23 @@
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='gymContainer'>
             <div class='gymText'>
+                <div class='libraryContainer'>
+                <TitleButton>ספרייה</TitleButton>
+                <div class='libraryText'>
+                    מיקום -מרכז מסחרי, קומה 1 <br>
+                    <b>שעות פעילות:</b> <br>
+                    א'-ה': 08:00-17:00, &nbsp;
+                    19:00-22:00. <br>
+                    בספרייה קיימים מחשבים אזרחיים
+                    וצבאיים עם אופצייה להדפסה,
+                    פסנתר וספרים המסווגים לפי
+                    נושאים.
+    
+                </div>
+            </div>
                 <TitleButton class="titleNameGym">חדר כושר</TitleButton>
-                מיקום -קריית הספורט, קומה 1
-                שעות פתיחה-
+                מיקום -קריית הספורט, קומה 1 <br>
+                <b>שעות פתיחה:</b>
                 <p>א-ה 06:00-22:00</p>
                 <p>
                     ו- 06:00-15:00
@@ -48,34 +62,21 @@
             </div>
         </div>
         <div class='fitTextContainer'>
-            <div class='libraryContainer'>
-                <TitleButton>ספרייה</TitleButton>
-                <div class='libraryText'>
-                    שעות פעילות: <br>
-                    א'-ה': 08:00-17:00, &nbsp;
-                    19:00-22:00. <br>
-                    בספרייה קיימים מחשבים אזרחיים
-                    וצבאיים עם אופצייה להדפסה,
-                    פסנתר וספרים המסווגים לפי
-                    נושאים.
-
-                </div>
-            </div>
             <!-- <div class="cols"> -->
             <div class="cols poolText">
-                <TitleButton>בריכה</TitleButton>
-                <div>
+                <div class="keep-as-one">
+                    <TitleButton>בריכה</TitleButton>
+                    מיקום -קריית הספורט, קומת כניסה <br>
+                    <p>
+                        בקריית הספורט קיימת בריכת שחייה
+                        חצי אולימפית.</p>
                     <b>שעות פעילות:</b> <br>
                     ראשון - 15:00-19:00 <br>
                     שני - 7:30-9:00, 16:00-20:00 <br>
                     שלישי - 15:00-19:00 <br>
                     רביעי - 15:00-19:00 <br>
                     חמישי - 16:00-20:00 <br>
-                    אימוני שחייה לאנשי קבע ימי שני ב6:30-7:30
-                    <p>
-                        בקריית הספורט קיימת בריכת שחייה
-                        חצי אולימפית.
-                    </p>
+                    0אימוני שחייה לאנשי קבע ימי שני ב6:30-07:30
                     <p>
                         *ניתן להיכנס רק לאחר הרשמה לחדר
                         הכושר
@@ -92,13 +93,8 @@
                     </div>
                     <p>
                         *על כולם למלא הצהרת בריאות
-                        מקרפר 300
+                        מקרפ"ר 300.
                     </p>
-                    <div>
-                        ישנם אימוני שחייה עם מאמן מקצועי
-                        כל יום שני ב6:30 לאנשי הקבע בלבד.
-                        הרשמה מול רמ”ד כושר קרבי.
-                    </div>
                 </div>
                 <img src="@/assets/pool.svg" alt="pool" class='poolPic' />
                 <div class='genericText1'>
