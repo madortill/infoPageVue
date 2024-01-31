@@ -127,7 +127,6 @@ html {
 
 .body {
   height: fit-content;
-  margin-top: 3vh;
   width: 100vw;
   position: relative;
   background-repeat: no-repeat round;
