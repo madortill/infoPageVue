@@ -12,21 +12,25 @@
                     בטיחות הינה האחריות של כל אחד: <br>
                     נהלי בטיחות קריית ההדרכה, בריאות וסביבה וביטחון למבקרים בקריית ההדרכה. <br>
                     כל משרת ועובד בקריית ההדרכה חייבים למלא אחר הוראות הבטיחות בקריית ההדרכה, לקיים את הוראות החוק ולהפעיל
-                    שיקול דעת בביצוע המשימות היומיות שלהם.
+                    שיקול דעת בביצוע המשימות היומיות שלהם. <br>
+                    לנהלי בטיחות קריית ההדרכה כנס <a href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לכאן</a>.<br>
+                     או ניתן לפנות לקצין הבטיחות <a href="tel:+52-9247181">052-9247181.</a>
                 </div>
             </div>
             <div class='securityCenter'>
-                <TitleButton>חניה</TitleButton>
+                <br>
+                <b>חניה</b>
                 <div class='securityText'>
                     <ul>
                         <li> מבקרים צריכים לחנות במקום מסודר על פי חוקי התנועה ( חניה חיצונית פנימית) </li>
                         <li> חל איסור על כניסה וחניה של רכבים בשטחי המגורים.</li>
                         <li> חל איסור חנייה באדום לבן, אדום-צהוב, רחבת כיבוי אש.</li>
-                        <li> זכור! האחריות לבטיחות היא גם עליך!</li>
-                        <li> לומדת בטיחות - <a href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לחץ כאן</a> או ניתן לפנות לקצין הבטיחות <a href="tel:+52-9247181">052-9247181</a></li>
                     </ul>
+
+                    
                 </div>
             </div>
+            <p class="bigger"> זכור! האחריות לבטיחות היא גם עליך!</p>
         </div>
     </div>
 </template>
@@ -89,4 +93,14 @@ p {
     transform: rotate(90deg);
 }
 
+ul {
+    margin: 0;
+}
+
+.bigger {
+    margin-top: 1vh;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
 </style>

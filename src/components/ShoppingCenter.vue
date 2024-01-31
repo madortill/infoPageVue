@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class='burgerContainer keep-as-one'>
-                <TitleButton>בורגר110</TitleButton>
+                <TitleButton>בורגר 110</TitleButton>
                 <div class='burgerText'>
                     כשר -בשרי למהדרין <br>
                     שעות פתיחה:
@@ -166,7 +166,7 @@ export default {
 
 .centerPic {
     height: 50vh;
-    position: relative;
+    /* position: relative; */
     left: 10vw;
 }
 </style>

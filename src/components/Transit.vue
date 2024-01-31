@@ -1,40 +1,50 @@
 <template>
-    <div class='shuttleContainer' >
+    <div class='shuttleContainer'>
         <div class='titleContainer'>
             <img src="@/assets/busIcon.svg" alt="bus" class='icon' />
             <div class='titleNameBus'>היסעים</div>
         </div>
         <div class='textContainerShuttle'>
-            <div class='shuttle'>
-                <TitleButton>שאט"ל</TitleButton>
-                <div class='shuttleText'>
-                    <p>שאטל הינו שירות היסעים עבור חיילי צה״ל. </p>
-                    <p> בקריית ההדרכה קיים מערך היסעים הכולל שירותי היסעים חוץ קרייתים ותוך קרייתיים.</p>
-                    <div>בימי חמישי + שישי ישנם שאטלים המסיעים את החיילים מקריית ההדרכה ל-20 מוקדים ברחבי הארץ.</div>
-                    <div>בימי ראשון ישנם 32 מוקדי איסוף מכל הארץ המסיעות את החיילים לקריית ההדרכה.</div>
-                </div>
-            </div>
-            <div class='outside'>
-                <TitleButton>חוץ קרייתי</TitleButton>
-                <div class='outsideText'>
-                    <p>מטרופולין קו - 170 מגיע לש.ג המרכזי ולמרפ״א דרום.</p>
-                    <p>אפליקציית שאטל - קישור להורדה ולהרשמה - <a href="https://onelink.to/jq7h8k">לחץ כאן</a></p>
-                </div>
-            </div>
-            <div class='inside'>
+            <div class='inside keep-as-one'>
                 <TitleButton>תוך קרייתי</TitleButton>
                 <div class='insideText'>
-                    קו 747- קו אשר עובר ב-12 תחנות הפזורות ברחבי קריית ההדרכה ומשרת את כלל חיילי הבסיס.
+                    <b class="title">יום א' 747+</b>
+                    יוצא כל 20 דקות מחניון השאטלים
+                    בין השעות <span class="nobreak">08:30-12:00</span>
+                    עוצר בתחנות:
+                    מפקדת בה"ד 20, מבנה 534, מבנה 517 ומבנה 503.
+                    <br>
+                    <br>
+                    <b class="title">ימים ב'-ה' קו 747</b>
+                    קו אשר עובר ב-13 תחנות הפזורות ברחבי קריית ההדרכה ומשרת את כלל חיילי הבסיס
                 </div>
             </div>
-            <div class='inside'>
-                    <TitleButton>ידעת נסעת</TitleButton>
-                <div class='insideText'>
-                    ״ידעת נסעת״ כל מה שצריך לדעת בדרך חזרה לבסיס!</div>
-                <div class='insideText'>747 השאטל הפנימי של קריית ההדרכה </div>
-                <div class='insideText'> 747+ הקו שלוקח אתכם בימי ראשון הכי קרוב למגורים </div>
-                <a class='insideText link'
-                    href="https://drive.google.com/file/d/1Lq49ytTX-kpftVejXVa2G9eP0kYdf0FK/view?usp=drivesdk">לחץ כאן</a>
+            <div class='outside keep-as-one'>
+                <TitleButton>חוץ קרייתי</TitleButton>
+                <div class='outsideText '>
+                    <div class="shuttleApp">
+                        <b class="title">שאטל</b>
+                        שאטל הינו שירות היסעים עבור חיילי צה"ל.
+                        בקריית ההדרכה יש מערך היסעים נרחב המשרת את כלל חיילי הבסיס.
+                        בשביל לנסוע בשאטל, יש להוריד את אפליקציית שאטל ולהירשם במהלך השבוע בכדי להבטיח את מקומכם.
+                        <a href="https://onelink.to/jq7h8k">להורדה</a> <br><br>
+                        בימי חמישי + שישי ישנם שאטלים המסיעים את החיילים מקריית ההדרכה ל-20 מוקדים ברחבי הארץ. <br>
+                        בימי ראשון ישנם 32 מוקדי איסוף מכל הארץ המסיעים את החיילים לקריית ההדרכה.<br>
+                        <a class='link'
+                            href="https://drive.google.com/file/d/1Lq49ytTX-kpftVejXVa2G9eP0kYdf0FK/view?usp=drivesdk">הידעת
+                            נסעת</a> - כל מה שצריך לדעת בדרך חזרה לבסיס!
+                        <br>
+                        <br>
+                    </div>
+                    <div class="public-transport">
+                        <b class="title">תחבורה ציבורית</b>
+                        מטרופולין קו 170 מגיע לש"ג המרכזי ולמרפ"א דרום מתחנה מרכזית באר שבע ולהפך.
+                        תיקוף הנסיעה בתחבורה ציבורית מתבצע ע"י שימוש באפליקציית זוזו. <br>
+                        <a href="https://drive.google.com/file/d/1OX1FKziHBlVdEuIlrtNSwqpXNJJQvksd/view?usp=drivesdk">הסבר על אפליקצית זוזו</a><br>
+                        שימו לב הקו לא פועל בעת שעות פעילות השאטלים.
+                    </div>
+
+                </div>
             </div>
         </div>
         <img src="@/assets/shuttles.svg" alt="shuttle" class='shuttlePic' />
@@ -77,7 +87,7 @@ export default {
 }
 
 .textContainerShuttle {
-    columns: 2;
+    /* columns: 2; */
     align-content: space-around;
     direction: rtl;
     margin-right: 5vw;
@@ -91,9 +101,7 @@ export default {
     margin-top: 1vh;
 }
 
-.outside,
-.shuttle,
-.inside {
+.keep-as-one {
     break-inside: avoid;
 }
 
@@ -105,7 +113,7 @@ export default {
 .shuttleText,
 .insideText,
 .outsideText {
-    width: 40vw;
+    max-width: 85vw;
     margin-right: 5vw;
     font-size: 1.7vh;
     font-weight: 600;
@@ -135,4 +143,10 @@ export default {
 
 .link {
     display: inline;
-}</style>
+}
+
+.title {
+    display: block;
+    /* font-size: 1.1em; */
+}
+</style>

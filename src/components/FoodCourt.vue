@@ -16,7 +16,7 @@
             </div>
             <div class='textContainerFood'>
                 <div class="openingHours keep-as-one">
-                    <img src="@/assets/openHours.svg" alt="openHours" class='titleName' />
+                    <TitleButton>שעות פתיחה</TitleButton>
                     <div class="text">
                         <table dir="rtl">
                             <tbody>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="middle keep-as-one">
-                    <img src="@/assets/middleMeal.svg" alt="middle" class='titleName' />
+                    <TitleButton>ארוחת ביניים</TitleButton>
                     <div class='middleText text'>
                         בקריית ההדרכה ניתן להזמין ולמשוך
                         ארוחות ביניים מעמדת הפריסה
@@ -94,8 +94,8 @@
                             את הפריסה.</p>
                     </div>
                 </div>
-                <div class="kosher keep-as-one">
-                    <img src="@/assets/kashrut.svg" alt="kasher" class='titleName' />
+                <div class="keep-as-one">
+                    <TitleButton>כשרות</TitleButton>
                     <div class='kosherText text'>
                         <p>בשר גולמי וטחון חלק מהרבנות.
                             מוצרי עוף רבנות מהדרין.</p>
@@ -109,19 +109,30 @@
                         </p>
                     </div>
                 </div>
+                <div class="special keep-as-one">
+                    <TitleButton>מענה לאוכלוסיות מיוחדות</TitleButton>
+                    <div class='kosherText text'>
+                        בקריית ההדרכה קיים מענה ייעודי לאוכלוסיות הצליאק והאלרגיים.
+                        המענה מתבסס על המענה הקיים בצה"ל, בתוספת פריטים יחודיים כגון קורנפלקס ללא גלוטן, קינוחים ועוד.
+                        בשונה מיתר צה"ל המענה בקרה"ד זמין עד לטווח ה-50 ק"מ וחייל צליאיקי או אלרגני יכול לקבל מנה חמה גם
+                        בפעילות בשטח וגם בסיורים
+                        קיים מענה גם מגוון לאוכלוסיית הצליאקים והאלרגניים הטבעונים
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import TitleButton from './TitleButton.vue';
+
 export default {
     name: "FoodCourt",
     data() {
-        return {
-
-        }
-    }
+        return {};
+    },
+    components: { TitleButton }
 }
 </script>
 
@@ -133,6 +144,7 @@ export default {
 
 .openingHours {
     column-span: all;
+    margin-bottom: 2vh;
 }
 
 .foodContainer {
@@ -195,6 +207,7 @@ export default {
     position: relative;
     bottom: 14vh;
     margin-right: 5vw;
+    max-width: 90vw;
 
 }
 
@@ -244,4 +257,7 @@ th.cell {
     width: 11.5vw;
 }
 
+.special {
+    padding-top: 2vh;
+}
 </style>

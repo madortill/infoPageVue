@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .openContainer {
     display: flex;
     flex-direction: column;
