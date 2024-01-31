@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class='inside'>
-                <img src="@/assets/insideKiryaButton.png" alt="inside" class='insideTitle' />
+                <img src="@/assets/insideKiryaButton.png" alt="inside" class='insideTitle title' />
                 <div class='insideText'>
                     קו 747- קו אשר עובר ב-12 תחנות הפזורות ברחבי קריית ההדרכה ומשרת את כלל חיילי הבסיס.
                 </div>
@@ -81,6 +81,8 @@ export default {
     columns: 2;
     align-content: space-around;
     direction: rtl;
+    margin-right: 5vw;
+
 }
 
 .shuttleTitle,

@@ -1,7 +1,6 @@
 <template>
   <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
     <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]">
-    <!-- <TopBg class="baseBgImg" :colors="bgColors[currentBackgroundIndex]"></TopBg> -->
     <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" />
     <Speech ref="speech" />
     <TableOfContent ref="table" @clickedSubject="clickedSubject" />
@@ -45,7 +44,6 @@ import topBg4 from '/bg/topBg4.svg';
 
 import Contact from './components/Contact.vue';
 import BaseMap from './BaseMap.vue';
-import TopBg from './components/topBg.vue';
 
 export default {
   components: {
@@ -63,7 +61,6 @@ export default {
     Security,
     Contact,
     BaseMap,
-    TopBg
   },
   data() {
     return {
@@ -132,15 +129,9 @@ html {
   height: fit-content;
   margin-top: 3vh;
   width: 100vw;
-  /* background-image: url("@/assets/baseBgImage.png"), url("@/assets/background.svg");
-  background-size: 100vh 100vw;
-  background-repeat: no-repeat, repeat; */
-  /* position: relative;
-  z-index: 1; */
   position: relative;
   background-repeat: no-repeat round;
   background-position-y: 81vh;
-  /* background-size: 100vw auto; */
 }
 
 /* hue-rotate(36deg) saturate(0.5);

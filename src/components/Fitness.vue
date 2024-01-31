@@ -6,8 +6,8 @@
         </div>
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='gymContainer'>
-            <img src="@/assets/gym.svg" class="titleNameGym" />
             <div class='gymText'>
+                <TitleButton class="titleNameGym">חדר כושר</TitleButton>
                 מיקום -קריית הספורט, קומה 1
                 שעות פתיחה-
                 <p>א-ה 06:00-22:00</p>
@@ -49,26 +49,21 @@
         </div>
         <div class='fitTextContainer'>
             <div class='libraryContainer'>
-                <img src="@/assets/libraryButton.png" alt="library" class='titleNameGym' />
+                <TitleButton>ספרייה</TitleButton>
                 <div class='libraryText'>
-                    שעות פעילות-
-                    <p>
-                        א-ה- 08:00-17:00
-                    </p>
-                    <p>
-                        19:00-22:00
-                    </p>
-                    <p>
-                        בספרייה קיימים מחשבים אזרחיים
-                        וצבאיים עם אופצייה להדפסה,
-                        פסנתר וספרים המסווגים לפי
-                        נושאים.
-                    </p>
+                    שעות פעילות: <br>
+                    א'-ה': 08:00-17:00, &nbsp;
+                    19:00-22:00. <br>
+                    בספרייה קיימים מחשבים אזרחיים
+                    וצבאיים עם אופצייה להדפסה,
+                    פסנתר וספרים המסווגים לפי
+                    נושאים.
+
                 </div>
             </div>
             <!-- <div class="cols"> -->
             <div class="cols poolText">
-                <img src="@/assets/poolButton.svg" alt="pool" class='titleNameGym' />
+                <TitleButton>בריכה</TitleButton>
                 <div>
                     <b>שעות פעילות:</b> <br>
                     ראשון - 15:00-19:00 <br>

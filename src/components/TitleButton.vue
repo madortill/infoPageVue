@@ -17,10 +17,10 @@ export default {
 
 @font-face {
     font-family: Assistant-semiBold;
-    src: url("/fonts/Assistant/static/Assistant-SemiBold.ttf");
+    src: url("/fonts/Assistant/static/Assistant-Bold.ttf");
 }
 .container {
-    background-image: url(/src/assets/emptyButton.svg);
+    background-image: url("/src/assets/emptyButton.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 6vh;
@@ -37,7 +37,7 @@ export default {
 .text {
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: Assistant-semiBold;
 }
 </style>

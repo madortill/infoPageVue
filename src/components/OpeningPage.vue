@@ -4,7 +4,7 @@
             <img :src="titleOption[`title${currentBackgroundIndex}`]" alt="title" className='title' />
             <img src="@/assets/logo.png" alt="logo" className='logo' />
             <img src="@/assets/slogan.png" alt="slogan" className='slogan' />
-            <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/oWaOPcFJ0Fw?si=q_P1THUDIvT0F5v_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+            <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/uJEyMlyIWlY?si=14wo5WJtUXc9XzUG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
             </iframe>
         </div>
         <img src="@/assets/downArrowWhite.png" alt="arrow" className='arrow arrowAni' @click="$emit('clickedArrow')" />

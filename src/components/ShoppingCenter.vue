@@ -17,8 +17,7 @@
                 </div>
             </div>
             <div class='shnitzelContainer keep-as-one'>
-                <!-- <TitleButton>השניצלייה</TitleButton> -->
-                <img src="@/assets/shnitzel.svg" alt="Shnitzel" class='titleName' />
+                <TitleButton>השניצלייה</TitleButton>
                 <div class='shnizText'>
                     כשרות-רבנות מהדרין <br>
                     טלפון - <a href="tel:+8-634-4474">08-6344474</a><br>
@@ -27,7 +26,7 @@
                 </div>
             </div>
             <div class='burgerContainer keep-as-one'>
-                <img src="@/assets/burgerButton.png" alt="Burger" class='titleName' />
+                <TitleButton>בורגר110</TitleButton>
                 <div class='burgerText'>
                     כשר -בשרי למהדרין <br>
                     שעות פתיחה:
@@ -35,7 +34,7 @@
                 </div>
             </div>
             <div class='coffeeContainer keep-as-one'>
-                <img src="@/assets/coffeeTime.svg" alt="coffee" class='titleName' />
+                <TitleButton>coffee time</TitleButton>
                 <div class='coffeeText'>
                     כשר -חלבי למהדרין <br>
                     שעות פתיחה:
@@ -46,7 +45,7 @@
                 </div>
             </div>
             <div class='gidronContainer keep-as-one'>
-                <img src="@/assets/gidron.svg" alt="Gidron" class='titleName' />
+                <TitleButton>גידרון</TitleButton>
                 <div class='gidronText'>
                     כשר -חלבי למהדרין <br>
                     שעות פתיחה: <br>
@@ -62,7 +61,7 @@
                 </div>
             </div>
             <div class='shiftzurimContainer keep-as-one'>
-                <img src="@/assets/shiftzurim.svg" alt="shifzturim" class='titleName' />
+                <TitleButton>שיפצורים</TitleButton>
                 <div class='shifturText'>
                     שעות פתיחה: <br>
                     <span class="nobreak">
@@ -75,7 +74,7 @@
                 </div>
             </div>
             <div class='freshContainer keep-as-one'>
-                <img src="@/assets/freshop.svg" alt="freshop" class='titleName' />
+                <TitleButton>freshop</TitleButton>
                 <div class='freshText'>
                     כשר -חלבי למהדרין
                     <p>
@@ -92,7 +91,7 @@
                 </div>
             </div>
             <div class='DVContainer keep-as-one'>
-                <img src="@/assets/DVcom.svg" alt="dvCom" class='titleName' />
+                <TitleButton>DVcom</TitleButton>
                 <div class='DVText'>
                     טלפון- <a href="tel: + 055-9989777"> 055-9989777</a>
                     <p>

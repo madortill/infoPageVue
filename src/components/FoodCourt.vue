@@ -194,6 +194,8 @@ export default {
     direction: rtl;
     position: relative;
     bottom: 14vh;
+    margin-right: 5vw;
+
 }
 
 .textContainerFood>div {
