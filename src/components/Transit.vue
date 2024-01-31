@@ -6,7 +6,7 @@
         </div>
         <div class='textContainerShuttle'>
             <div class='shuttle'>
-                <img src="@/assets/shuttleButton.svg" alt="shuttle" class='shuttleTitle' />
+                <TitleButton>שאט"ל</TitleButton>
                 <div class='shuttleText'>
                     <p>שאטל הינו שירות היסעים עבור חיילי צה״ל. </p>
                     <p> בקריית ההדרכה קיים מערך היסעים הכולל שירותי היסעים חוץ קרייתים ותוך קרייתיים.</p>
@@ -15,22 +15,20 @@
                 </div>
             </div>
             <div class='outside'>
-                <img src="@/assets/outsideBase.svg" alt="outside" class='outsideTitle' />
+                <TitleButton>חוץ קרייתי</TitleButton>
                 <div class='outsideText'>
                     <p>מטרופולין קו - 170 מגיע לש.ג המרכזי ולמרפ״א דרום.</p>
                     <p>אפליקציית שאטל - קישור להורדה ולהרשמה - <a href="https://onelink.to/jq7h8k">לחץ כאן</a></p>
                 </div>
             </div>
             <div class='inside'>
-                <img src="@/assets/insideKiryaButton.png" alt="inside" class='insideTitle title' />
+                <TitleButton>תוך קרייתי</TitleButton>
                 <div class='insideText'>
                     קו 747- קו אשר עובר ב-12 תחנות הפזורות ברחבי קריית ההדרכה ומשרת את כלל חיילי הבסיס.
                 </div>
             </div>
             <div class='inside'>
-                <div class='titleFather insideTitle'>
-                    <p class='did-you-know'>ידעת נסעת</p>
-                </div>
+                    <TitleButton>ידעת נסעת</TitleButton>
                 <div class='insideText'>
                     ״ידעת נסעת״ כל מה שצריך לדעת בדרך חזרה לבסיס!</div>
                 <div class='insideText'>747 השאטל הפנימי של קריית ההדרכה </div>
@@ -44,13 +42,14 @@
 </template>
 
 <script>
+import TitleButton from './TitleButton.vue';
+
 export default {
     name: "Transit",
     data() {
-        return {
-
-        }
-    }
+        return {};
+    },
+    components: { TitleButton }
 }
 </script>
 

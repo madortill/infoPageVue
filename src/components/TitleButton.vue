@@ -37,7 +37,8 @@ export default {
 .text {
     text-align: center;
     color: white;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: 2vh;
     font-family: Assistant-semiBold;
 }
 </style>

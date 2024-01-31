@@ -19,12 +19,14 @@
             </div>
         </div>
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
-        <FsLightbox :toggler="toggler" :sources="['/map.png']" />
+        <FsLightbox :toggler="toggler" :sources="[mapImage]" type="image" />
     </div>
 </template>
 
 <script>
 import FsLightbox from "fslightbox-vue/v3";
+import mapImage from "/map.png";
+
 let overlayInterval;
 export default {
     components: { FsLightbox },
@@ -32,6 +34,7 @@ export default {
         return {
             toggler: false,
             overlayOpacity: 1,
+            mapImage,
         }
     },
     methods: {

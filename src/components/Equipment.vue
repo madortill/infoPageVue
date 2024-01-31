@@ -7,7 +7,7 @@
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='containers'>
             <div class='afsankolContainer'>
-                <img src="@/assets/afsancol.svg" alt="afsan" class='titleName' />
+                <TitleButton>אפסנכל</TitleButton>
                 <div>
                     <div>
                         מחסן ציוד לוגיסטי קדמי אשר נותן מענה
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class='marlogContainer'>
-                <img src="@/assets/marlog.svg" alt="marlog" class='titleName' />
+                <TitleButton>מרלו"ג</TitleButton>
                 <div>
                     <div>
                         מרלו”ג קריית ההדרכה ממוקם בין המרת”ק

@@ -7,7 +7,7 @@
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='healthTextContainer'>
             <div class='healthCenter'>
-                <img src="@/assets/healthCenter.svg" alt="center" class='titleName' />
+                <TitleButton>המרכז הרפואי</TitleButton>
                 <div class='centerText'>
                     המרכז הרפואי נותן שירותי רפואה ראשונית לכלל משרתי
                     החובה בקריית ההדרכה.<br>

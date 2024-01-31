@@ -7,7 +7,7 @@
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='cenTextContainer'>
             <div class='bistopContainer keep-as-one'>
-                <img src="@/assets/bistopButton.png" alt="bistop" class='titleName' />
+                <TitleButton>ביסטופ</TitleButton>
                 <div class='bisText'>
                     מאפייה - כשר חלבי מהדרין <br>
                     שעות פתיחה- <br>
