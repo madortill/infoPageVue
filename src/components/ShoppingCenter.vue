@@ -20,7 +20,7 @@
                 <TitleButton>השניצלייה</TitleButton>
                 <div class='shnizText'>
                     שניצלים בבגט/ פיתה - כשר בשרי למהדרין <br>
-                    טלפון - <a href="tel:+8-634-4474">08-6344474</a><br>
+                    טלפון - <a href="tel:08-634-4474">08-6344474</a><br>
                     שעות פתיחה:
                     א'- ה' <span class="nobreak">11:30-21:00</span>
                 </div>
@@ -79,7 +79,7 @@
                 <div class='freshText'>
                     גלידריה - כשר חלבי למהדרין
                     <p>
-                        טלפון- <a href="tel: + 052-5991194"> 052-5991194</a>
+                        טלפון- <a href="tel:052-5991194"> 052-5991194</a>
                     </p>
                     שעות פתיחה: <br>
                     <span class="nobreak">
@@ -95,7 +95,7 @@
                 <TitleButton>DVcom</TitleButton>
                 <p>חנות תיקוני סלולר ואביזרים</p>
                 <div class='DVText'>
-                    טלפון- <a href="tel: + 055-9989777"> 055-9989777</a>
+                    טלפון- <a href="tel:055-9989777"> 055-9989777</a>
                     <p>
                         שעות פתיחה:
                     </p>

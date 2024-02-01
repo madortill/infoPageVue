@@ -18,11 +18,11 @@
                     </ul>
                     <div>
                         לפרטים מלאים ולהרחבה, ניתן לפנות לרב קריית ההדרכה , הרב ליאור
-                        בטלפון <a href="tel: +054-695-6624">054-6956624</a>
+                        בטלפון <a href="tel:054-695-6624">054-6956624</a>
                         ובווצאפ <a href="https://api.whatsapp.com/send?phone=054-695-6624&text=">לחץ כאן</a>.
                         <br>
                         בתחומי כשרות וציוד ניתן לפנות לראש תחום דת, נאור
-                        בטלפון <a href="tel: + 052-6374225">052-6374225</a>
+                        בטלפון <a href="tel:052-6374225">052-6374225</a>
                         ובווצאפ <a href="https://api.whatsapp.com/send?phone=052-6374225&text=" class="nobreak">לחץ כאן</a>
                     </div>
                 <img src="@/assets/kneset.svg" alt="kneset" class='RabanutPic' />
