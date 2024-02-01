@@ -9,8 +9,8 @@
             <div class='bistopContainer keep-as-one'>
                 <TitleButton>ביסטופ</TitleButton>
                 <div class='bisText'>
-                    מאפייה - כשר חלבי מהדרין <br>
-                    שעות פתיחה- <br>
+                    סופרמרקט - כשר חלבי מהדרין <br>
+                    שעות פתיחה: <br>
                     א'-ד': 07:00-22:00 <br>
                     ה': 07:00-20:30 <br>
                     ו': 07:00-13:00
@@ -19,7 +19,7 @@
             <div class='shnitzelContainer keep-as-one'>
                 <TitleButton>השניצלייה</TitleButton>
                 <div class='shnizText'>
-                    כשרות-רבנות מהדרין <br>
+                    שניצלים בבגט/ פיתה - כשר בשרי למהדרין <br>
                     טלפון - <a href="tel:+8-634-4474">08-6344474</a><br>
                     שעות פתיחה:
                     א'- ה' <span class="nobreak">11:30-21:00</span>
@@ -28,7 +28,7 @@
             <div class='burgerContainer keep-as-one'>
                 <TitleButton>בורגר 110</TitleButton>
                 <div class='burgerText'>
-                    כשר -בשרי למהדרין <br>
+                    המבורגרים - כשר בשרי למהדרין <br>
                     שעות פתיחה:
                     א'-ה' <span class="nobreak">11:30-21:00</span>
                 </div>
@@ -36,7 +36,7 @@
             <div class='coffeeContainer keep-as-one'>
                 <TitleButton>coffee time</TitleButton>
                 <div class='coffeeText'>
-                    כשר -חלבי למהדרין <br>
+                    בית קפה - כשר חלבי למהדרין <br>
                     שעות פתיחה:
                     א'- ה'
                     <span class="nobreak">
@@ -47,7 +47,7 @@
             <div class='gidronContainer keep-as-one'>
                 <TitleButton>גידרון</TitleButton>
                 <div class='gidronText'>
-                    כשר -חלבי למהדרין <br>
+                    מאפיה - כשר חלבי למהדרין <br>
                     שעות פתיחה: <br>
                     <span class="nobreak">
                         א'-ד' 06:30-19:30
@@ -63,6 +63,7 @@
             <div class='shiftzurimContainer keep-as-one'>
                 <TitleButton>שיפצורים</TitleButton>
                 <div class='shifturText'>
+                    חנות  לציוד וביגוד <br>
                     שעות פתיחה: <br>
                     <span class="nobreak">
                         א'-ד' 09:30-20:00
@@ -76,7 +77,7 @@
             <div class='freshContainer keep-as-one'>
                 <TitleButton>freshop</TitleButton>
                 <div class='freshText'>
-                    כשר -חלבי למהדרין
+                    גלידריה - כשר חלבי למהדרין
                     <p>
                         טלפון- <a href="tel: + 052-5991194"> 052-5991194</a>
                     </p>
@@ -92,13 +93,14 @@
             </div>
             <div class='DVContainer keep-as-one'>
                 <TitleButton>DVcom</TitleButton>
+                <p>חנות תיקוני סלולר ואביזרים</p>
                 <div class='DVText'>
                     טלפון- <a href="tel: + 055-9989777"> 055-9989777</a>
                     <p>
                         שעות פתיחה:
                     </p>
                     <span class="nobreak">
-                        א'-ד' 09:30-20:0
+                        א'-ד' 09:30-20:00
                     </span>
                     <br>
                     <span class="nobreak">

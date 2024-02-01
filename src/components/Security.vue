@@ -14,7 +14,7 @@
                     כל משרת ועובד בקריית ההדרכה חייבים למלא אחר הוראות הבטיחות בקריית ההדרכה, לקיים את הוראות החוק ולהפעיל
                     שיקול דעת בביצוע המשימות היומיות שלהם. <br>
                     לנהלי בטיחות קריית ההדרכה כנס <a target="_blank" rel="noopener noreferrer" href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לכאן</a>.<br>
-                     או ניתן לפנות לקצין הבטיחות שלמה <a href="tel:+52-9247181">052-9247181.</a>
+                    בכל סוגיה ניתן לפנות לקצין הבטיחות שלמה <a href="tel:+52-9247181">052-9247181.</a>
                 </div>
             </div>
             <div class='securityCenter'>

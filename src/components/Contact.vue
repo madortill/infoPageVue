@@ -7,8 +7,10 @@
         <div class="father">
             <img class='mailbox' src="@/assets/envelope.svg">
             <div class="mail-text">
-                    יש לזכור שמפקדיכם האישיים מהווים מענה ראשוני לכל עניין ובעיה.
-                    <span>מייל: </span><a href="mailto:Mefaked747@gmail.com">Mefaked747@gmail.com</a>
+                תיבת פניות למפקד קריית ההדרכה בכל בעיה, נושא או תחום. <br>
+                <span>מייל: </span><a href="mailto:Mefaked747@gmail.com">Mefaked747@gmail.com</a>
+                טלפון אזרחי: <a href="tel:0377333003">037-7333003</a>
+                טלפון מטכ"לי: 0747-3003
             </div>   
         </div>
     </div>
