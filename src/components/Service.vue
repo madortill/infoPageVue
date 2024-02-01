@@ -50,7 +50,7 @@
                 <div class="keep-as-one">
                     <TitleButton>שירותי תקשוב</TitleButton>
                     <div class='michshuvText'>
-                        חלון הקבלה נמצא בבניין המפקדה (206) קומה 1- (בחניית מפקדת קרה”ד) <br>
+                        חלון הקבלה נמצא בבניין המפקדה קומה 1- (בחניית מפקדת קרה”ד) <br>
                         <ul>
                             <li>הלבנות והשחרות</li>
                             <li>טופס טיולים נכנס/יוצא</li>
@@ -137,20 +137,30 @@
             </div>
             <img src="@/assets/base.svg" alt="base" class='basePic' />
             <!-- start of unit -->
-            <!-- <div class="keep-as-one">
-                <TitleButton>נגדי משמעת</TitleButton>
-                <div class='hamalText'>
-                    איש: <a href="tel:">000 - 00000000</a>
-                    fsdafsad
-                </div>
-            </div> -->
-            end of unit
             <div class="keep-as-one">
+                <TitleButton> נגדי משמעת היחידות</TitleButton>
+                <div class='hamalText'>
+                    רנ"גית קריית ההדרכה: <a href="tel:">073-3772622</a> <br>
+                    רס"רית מפקדה : <a href="tel:">073-3772670</a> <br>
+                    רס"ר בה"ד 7 : <a href="tel:">073-3773443</a> <br>
+                    רס"ר בה"ד 6 : <a href="tel:">073-3775525</a> <br>
+                    רס"ר בה"ד 20 : <a href="tel:">073-3774031</a> <br>
+                    רס"ר בה"ד 10 : <a href="tel:">073-3775269</a> <br>
+                    רס"רית הכשרות יסוד בה"ד 10 : <a href="tel:">073-3775183</a> <br>
+                    רס"ר בה"ד 11 : <a href="tel:">073-3774835</a> <br>
+                    רס"ר ענף הכשרות בה"ד 11 : <a href="tel:">073-3774834</a> <br>
+                    רס"ר בה"ד חינוך : <a href="tel:">073-3774728</a> <br>
+                    רס"ר בה"ד 13 : <a href="tel:">073-3775296</a> <br>
+                    חמ"ל מ.צ הנגב : <a href="tel:">073-3772797</a> <br>
+                </div>
+            </div>
+            <!-- end of unit -->
+            <!-- <div class="keep-as-one">
                 <TitleButton>חמ"ל קריית ההדרכה</TitleButton>
                 <div class='hamalText'>
 
                 </div>
-            </div>
+            </div> -->
             <div>
 
             </div>
