@@ -2,7 +2,7 @@
     <div class='serviceContainer'>
         <div class='titleContainer'>
             <img src="@/assets/settingsIcon.svg" alt="settings" class='icon' />
-            <div class='titleService'>שירותים כלליים</div>
+            <div class='titleService'>שירותי הקרייה</div>
         </div>
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='textContainer'>
@@ -44,9 +44,6 @@
                             היריון בלתי מתוכנן.
                             מהו”ת- מרכז התמודדות ותמיכה:
                             <a href="tel:1111">1111</a> שלוחה 5 ואז 2
-                            או בווטסאפ-
-                            <a
-                                href="https://wa.me.972529282398">052-9282398</a>
                         </p>
                     </div>
                 </div>
