@@ -1,20 +1,20 @@
 <template>
   <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
     <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]">
-    <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" />
-    <Speech ref="speech" />
-    <TableOfContent ref="table" @clickedSubject="clickedSubject" />
-    <Transit ref="buses" />
-    <FoodCourt ref="lunch" @goBack="goback" />
-    <Service ref="service" @goBack="goback" />
-    <Rabanut ref="rabanut" @goBack="goback" />
-    <ShoppingCenter ref="shoppingCenter" @goBack="goback"></ShoppingCenter>
-    <Fittness ref="fitness" @goBack="goback" />
-    <Equipment ref="equip" @goBack="goback" />
-    <Health ref="health" @goBack="goback" />
-    <Security ref="security" @goBack="goback" />
-    <BaseMap ref="baseMap" @goBack="goback"></BaseMap>
-    <Contact ref="contact"></Contact>
+    <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" class="overflowx" />
+    <Speech ref="speech" class="overflowx" />
+    <TableOfContent ref="table" @clickedSubject="clickedSubject" class="overflowx" />
+    <Transit ref="buses" class="overflowx" />
+    <FoodCourt ref="lunch" @goBack="goback" class="overflowx" />
+    <Service ref="service" @goBack="goback" class="overflowx" />
+    <Rabanut ref="rabanut" @goBack="goback" class="overflowx" />
+    <ShoppingCenter ref="shoppingCenter" @goBack="goback" class="overflowx" />
+    <Fittness ref="fitness" @goBack="goback" class="overflowx" />
+    <Equipment ref="equip" @goBack="goback" class="overflowx" />
+    <Health ref="health" @goBack="goback" class="overflowx" />
+    <Security ref="security" @goBack="goback" class="overflowx" />
+    <BaseMap ref="baseMap" @goBack="goback" class="overflowx" />
+    <Contact ref="contact" class="overflowx" />
   </div>
 </template>
 
@@ -107,7 +107,7 @@ body,
 html {
   height: 100vh;
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "assistant";
   direction: rtl;
 }
@@ -131,6 +131,11 @@ html {
   position: relative;
   background-repeat: no-repeat round;
   background-position-y: 81vh;
+}
+
+.overflowx {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /* hue-rotate(36deg) saturate(0.5);

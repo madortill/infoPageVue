@@ -49,7 +49,7 @@ export default {
 
 .rabanut {
     margin-top: 4vh;
-    /* height: 50vh; */
+    min-height: 55vh;
     position: relative;
     margin-bottom: 4vh;
 }
@@ -92,10 +92,6 @@ export default {
     margin-right: 3vw;
 }
 
-.kosher {
-    height: 5vh;
-    width: 8vw;
-}
 
 .backArrow {
     width: 8vw;
