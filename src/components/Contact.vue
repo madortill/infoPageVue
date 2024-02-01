@@ -9,7 +9,7 @@
             <div class="mail-text">
                 תיבת פניות למפקד קריית ההדרכה בכל בעיה, נושא או תחום. <br>
                 <span>מייל: </span><a href="mailto:Mefaked747@gmail.com">Mefaked747@gmail.com</a>
-                טלפון אזרחי: <a href="tel:0377333003">037-7333003</a>
+                טלפון אזרחי: <a href="tel:0377333003">073-3773003</a> <br>
                 טלפון מטכ"לי: 0747-3003
             </div>   
         </div>
