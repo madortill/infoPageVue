@@ -35,18 +35,12 @@ export default {
 </script>
 
 <style scoped>
-.openContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 86vh;
-    position: relative;
-    justify-content: space-between;
-}
 .topContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 4;
+    position: relative;
 }
 
 .title {
@@ -69,6 +63,8 @@ export default {
 .arrow {
     color: white;
     width: 10vw;
+    margin: auto;
+    display: block;
 }
 
 .arrowAni {
