@@ -13,8 +13,9 @@
             המשיכו לקדם את עולמות ההדרכה, לשתף וליצור קהילה ארגונית לומדת.
         </div>
         <div class="theSpeach signature">
-            בברכה, <br>
-            ערן כהן,<p>אל"ם</p><br>
+            <!-- בברכה, <br> -->
+            <p class="line1">בברכה,</p>
+            ערן כהן,<p class="line2">אל"ם</p><br>
             מפקד קריית ההדרכה 
         </div>
         <img src="@/assets/building.svg" alt="building" class='building' />
@@ -79,14 +80,18 @@
   src: url("/fonts/Assistant/static/Assistant-SemiBold.ttf");
 }
 
-p {
+.line2 {
     display: inline;
     position: absolute;
     right: 85%;
 }
 
 .signature {
-    margin-right: 80%;
+    margin-right: 60%;
+}
+
+.line1 {
+    margin-right: -10%;
 }
 
 </style>
