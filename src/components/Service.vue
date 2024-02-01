@@ -46,7 +46,7 @@
                             <a href="tel:1111">1111</a> שלוחה 5 ואז 2
                             או בווטסאפ-
                             <a
-                                href="https://api.whatsapp.com/send?phone=0529282398&text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20">052-9282398</a>
+                                href="https://wa.me.972529282398">052-9282398</a>
                         </p>
                     </div>
                 </div>
