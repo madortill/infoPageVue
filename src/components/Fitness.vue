@@ -94,7 +94,7 @@
                     </div>
                     <p>
                         *על כולם למלא הצהרת בריאות
-                        מקרפ"ר 300. <a href="https://www.prat.idf.il/lomdot/refua/%D7%A9%D7%90%D7%9C%D7%95%D7%9F-%D7%90%D7%A1/%D7%A9%D7%90%D7%9C%D7%95%D7%9F-%D7%90%D7%A1-%D7%A4%D7%AA%D7%99%D7%97%D7%94/?returnUrl=%2flomdot%2frefua%2f%d7%a9%d7%90%d7%9c%d7%95%d7%9f-%d7%90%d7%a1%2f%d7%a9%d7%90%d7%9c%d7%95%d7%9f-%d7%90%d7%a1-%d7%a4%d7%aa%d7%99%d7%97%d7%94%2f">קישור</a>
+                        מקרפ"ר 300 <a href="https://www.prat.idf.il/lomdot/refua/%D7%A9%D7%90%D7%9C%D7%95%D7%9F-%D7%90%D7%A1/%D7%A9%D7%90%D7%9C%D7%95%D7%9F-%D7%90%D7%A1-%D7%A4%D7%AA%D7%99%D7%97%D7%94/?returnUrl=%2flomdot%2frefua%2f%d7%a9%d7%90%d7%9c%d7%95%d7%9f-%d7%90%d7%a1%2f%d7%a9%d7%90%d7%9c%d7%95%d7%9f-%d7%90%d7%a1-%d7%a4%d7%aa%d7%99%d7%97%d7%94%2f">לקישור</a>
                     </p>
                 </div>
                 <img src="@/assets/pool.svg" alt="pool" class='poolPic' />
