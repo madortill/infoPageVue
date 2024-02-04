@@ -81,10 +81,12 @@
                 <TitleButton>מספרה</TitleButton>
                 <div class='barberText'>
                     תאמו תור מראש והסתפרו
-                    במרכז המסחרי בבסיס-
+                    במרכז המסחרי בבסיס- <br>
+                    א-ה: עדיפות לתאם תור מראש <br>
+                    ו: נדרש לתאם מראש   <br>
                     <p><a href="tel:054-5562343">054-5562343</a></p>
-                    <p>א-ה: 08:00-18:00
-                        הפסקה: 12:00-13:00</p>
+                    <p>א-ה: 08:00-18:00 </p>
+                    <p>הפסקה: 12:00-13:00</p>
                 </div>
             </div>
             <div class="keep-as-one">
@@ -94,7 +96,7 @@
                     כלכלי ובירור זכאויות ותנאי
                     שירות -יש לפנות למשרד
                     הת״ש בבה״ד. <br>
-                     רמ״ד פרט קריית ההדרכה, רס"ן שני זנו : <a href="tel: 050-3109216"> 050-3109216</a>
+                    רמ״ד פרט קריית ההדרכה, רס"ן שני זנו : <a href="tel: 050-3109216"> 050-3109216</a>
                 </div>
             </div>
             <div class="keep-as-one">
@@ -151,13 +153,14 @@
                     </p>
                 </div>
             </div>
-            <img src="@/assets/base.svg" alt="base" class='basePic' />
-            <!-- <div class="keep-as-one">
-                <TitleButton>חמ"ל קריית ההדרכה</TitleButton>
+            <div class="keep-as-one">
+                <TitleButton>תחנת דלק</TitleButton>
                 <div class='hamalText'>
-
+                    נמצאת ליד הש.ג. המזרחי.
+                     מיועדת לרכבים צבאיים של משרתי קריית ההדרכה.
                 </div>
-            </div> -->
+            </div>
+            <img src="@/assets/base.svg" alt="base" class='basePic' />
             <div>
 
             </div>
