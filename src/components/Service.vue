@@ -160,6 +160,13 @@
                      מיועדת לרכבים צבאיים של משרתי קריית ההדרכה.
                 </div>
             </div>
+            <div class="keep-as-one">
+                <TitleButton>הגנת הסביבה</TitleButton>
+                <div class='hamalText'>
+                    כל חייל זכאי להזדכות על מקסימום 50 בקבוקים ביום ולקבל במזומן את סכום הפיקדון.
+                     מפקדים - עודדו את החיילים למחזור, בצה"ל שומרים על הכדור.
+                </div>
+            </div>
             <img src="@/assets/base.svg" alt="base" class='basePic' />
             <div>
 

@@ -2,7 +2,7 @@
     <div class="foodContainer">
         <div class='titleContainer'>
             <img src="@/assets/foodIcon.svg" alt="icon" class='icon' />
-            <div class='titleFood'>חדר אוכל</div>
+            <div class='titleFood'>מענה הסעדה</div>
         </div>
         <img src="@/assets/backArrow.png" alt="back" class='backArrow' @click="$emit('goBack')" />
         <div class='genericContainer'>
