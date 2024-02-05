@@ -32,7 +32,7 @@
         }
       ],
 
-    "start_url": "/",
+    "start_url": "/infoPageVue/",
     "display": "standalone",
     "theme_color": "#689fd5",
     "background_color": "#689fd5"
