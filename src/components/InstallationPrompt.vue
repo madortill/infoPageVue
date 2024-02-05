@@ -29,9 +29,9 @@ export default {
         async handleOk() {
             // deffered is a global variable we've been using in the sample to capture the `beforeinstallevent`
             this.deffered.prompt();
-            this.$emit('disappear');
             // Find out whether the user confirmed the installation or not
             const { outcome } = await this.deffered.userChoice;
+            this.$emit('disappear');
             // The defferedPrompt can only be used once.
 
             // Act on the user's choice
