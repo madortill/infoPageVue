@@ -76,6 +76,17 @@
                         <p>טלפון אזרחי <a href="tel:0733772345">073-3772345</a></p>
                     </div>
                 </div>
+                <div class="keep-as-one">
+                    <TitleButton> מועדון קריית ההדרכה</TitleButton>
+                    <div class='michshuvText'>
+                        שעות פתיחה של מועדון הרווחה בקריית ההדרכה, המועדון מופעל לשימוש ולרווחת חיילי ומפקדי כלל יחידות
+                        קריית ההדרכה <br>
+                        ימים א׳-ה׳: <span class="nobreak">15:30-22:00</span> <br>
+                        שישי: <span class="nobreak">16:00-22:00</span> <br>
+                        שבת: <span class="nobreak">13:00-22:00</span>
+
+                    </div>
+                </div>
             </div>
 
             <div class="keep-as-one">
