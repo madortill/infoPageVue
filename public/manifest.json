@@ -1,0 +1,22 @@
+{
+    "short_name": "קריית ההדרכה",
+    "name": "עלון מידע על קריית ההדרכה",
+    "description": "אתר המכיל בתוכו את כל המידע הנחוץ למשרתי קריית ההדרכה ע \"ש אריאל שרון",
+    "dir": "rtl",
+    "lang": "he",
+    "icons": [
+        {
+            "src": "/bg/topBg1.svg",
+            "sizes": "144x144 256x256"
+        },
+        {
+          "src": "/favicon.png",
+          "sizes": "any",
+          "type": "image/png"
+        }
+      ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#689fd5",
+    "background_color": "#689fd5"
+}
