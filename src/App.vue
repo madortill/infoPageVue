@@ -1,5 +1,6 @@
 <template>
   <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
+    <prompt v-show="isPromptShown" :deffered="deferredPrompt" @disappear="isPromptShown = false; deferredPrompt = null"/>
     <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]">
     <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" class="overflowx" />
     <Speech ref="speech" class="overflowx" />
@@ -31,6 +32,7 @@ import Fittness from './components/Fitness.vue';
 import Equipment from './components/Equipment.vue';
 import Health from './components/Health.vue';
 import Security from './components/Security.vue';
+import Prompt from "./components/InstallationPrompt.vue"
 
 import Background1 from '/bg/background1.svg';
 import Background2 from '/bg/background2.svg';
@@ -61,10 +63,13 @@ export default {
     Security,
     Contact,
     BaseMap,
+    Prompt
   },
   data() {
     return {
       currentBackgroundIndex: Math.floor(Math.random() * (5 - 1) + 1),
+      deferredPrompt: '',
+      isPromptShown: false,
       bgOption: [
         Background1,
         Background2,
@@ -95,11 +100,19 @@ export default {
     },
     goback() {
       this.$refs.table.$el.scrollIntoView({ behavior: 'smooth' });
+
     },
   },
-};
-
-
+  created() {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      // Prevents the default mini-infobar or install dialog from appearing on mobile
+      e.preventDefault();
+      // Save the event because you'll need to trigger it later.
+      this.deferredPrompt = e;
+      this.isPromptShown = true;
+    })
+  }
+}
 </script>
 
 <style>
