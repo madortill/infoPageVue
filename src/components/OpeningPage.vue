@@ -5,8 +5,7 @@
             <img src="@/assets/logo.png" alt="logo" className='logo' />
             <img src="@/assets/slogan.png" alt="slogan" className='slogan' />
             <!-- <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/uJEyMlyIWlY?si=14wo5WJtUXc9XzUG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> -->
-            <iframe class="youtube" width="560" height="315" src="https://www.youtube-nocookie.com/embed/_-NvtI9wK3k?si=AmP7KcqLb-a9P4BT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
+                <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/4510X0GG7Fc?si=M_414tkM_VlmFDks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <img src="@/assets/downArrowWhite.png" alt="arrow" className='arrow arrowAni' @click="$emit('clickedArrow')" />
     </div>

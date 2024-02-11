@@ -17,7 +17,6 @@ export default {
 
 @font-face {
     font-family: Assistant-semiBold;
-    font-display: swap;
     src: url("/fonts/Assistant/static/Assistant-Bold.ttf");
 }
 .container {
