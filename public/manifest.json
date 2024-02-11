@@ -1,39 +1,46 @@
 {
-    "id": "/",
-    "short_name": "קריית ההדרכה",
-    "name": "עלון מידע על קריית ההדרכה",
-    "description": "אתר המכיל בתוכו את כל המידע הנחוץ למשרתי קריית ההדרכה ע \"ש אריאל שרון",
-    "dir": "rtl",
-    "lang": "he",
-    "icons": [
-        {
-            "src": "logolarge.png",
-            "sizes": "512x512"
-        },
-        {
-            "src": "logomedium.png",
-            "sizes": "256x256"
-        },
-        {
-            "src": "logosmall.png",
-            "sizes": "144x144"
-        },
-
-        {
-          "src": "favicon.png",
-          "sizes": "any",
-          "type": "image/png"
-        },
-        {
-          "src": "maskable_icon.png",
-          "sizes": "any",
-          "type": "image/png",
-          "purpose": "maskable"
-        }
-      ],
-
-    "start_url": "/infoPageVue/",
-    "display": "standalone",
-    "theme_color": "#689fd5",
-    "background_color": "#689fd5"
+  "id": "/",
+  "short_name": "קריית ההדרכה",
+  "name": "עלון מידע על קריית ההדרכה",
+  "description": "אתר המכיל בתוכו את כל המידע הנחוץ למשרתי קריית ההדרכה ע \"ש אריאל שרון",
+  "dir": "rtl",
+  "lang": "he",
+  "icons": [
+    {
+      "src": "logolarge.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logomedium.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logosmall.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-mask-large.png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo-mask-medium.png",
+      "sizes": "256x256",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo-mask-small.png",
+      "sizes": "144x144",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/infoPageVue/",
+  "display": "standalone",
+  "theme_color": "#689fd5",
+  "background_color": "#689fd5"
 }

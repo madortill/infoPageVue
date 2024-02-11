@@ -54,6 +54,7 @@
 
 @font-face {
   font-family: "assistantBold";
+  font-display: swap;
   src: url("/fonts/Assistant/static/Assistant-Bold.ttf");
 }
 
@@ -66,6 +67,7 @@
 
 @font-face {
   font-family: "yad-light";
+
   src: url("/fonts/GYADL.TTF");
 }
 
@@ -77,6 +79,7 @@
 
 @font-face {
   font-family: "assistantSemiBold";
+  font-display: swap;
   src: url("/fonts/Assistant/static/Assistant-SemiBold.ttf");
 }
 
