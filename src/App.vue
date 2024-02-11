@@ -34,15 +34,15 @@ import Health from './components/Health.vue';
 import Security from './components/Security.vue';
 import Prompt from "./components/InstallationPrompt.vue"
 
-import Background1 from '@/assets/bg/background1.svg';
-import Background2 from '@/assets/bg/background2.svg';
-import Background3 from '@/assets/bg/background3.svg';
-import Background4 from '@/assets/bg/background4.svg';
+import Background1 from '/bg/background1.svg';
+import Background2 from '/bg/background2.svg';
+import Background3 from '/bg/background3.svg';
+import Background4 from '/bg/background4.svg';
 
-import topBg1 from '@/assets/bg/topBg1.svg';
-import topBg2 from '@/assets/bg/topBg2.svg';
-import topBg3 from '@/assets/bg/topBg3.svg';
-import topBg4 from '@/assets/bg/topBg4.svg';
+import topBg1 from '/bg/topBg1.svg';
+import topBg2 from '/bg/topBg2.svg';
+import topBg3 from '/bg/topBg3.svg';
+import topBg4 from '/bg/topBg4.svg';
 
 import Contact from './components/Contact.vue';
 import BaseMap from './BaseMap.vue';
