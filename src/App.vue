@@ -1,6 +1,6 @@
 <template>
   <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
-    <prompt v-show="isPromptShown" :deffered="deferredPrompt" @disappear="isPromptShown = false; deferredPrompt = null"/>
+    <prompt v-show="isPromptShown" :deffered="deferredPrompt" @disappear="isPromptShown = false; deferredPrompt = null" />
     <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]">
     <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" class="overflowx" />
     <Speech ref="speech" class="overflowx" />
@@ -71,16 +71,16 @@ export default {
       deferredPrompt: '',
       isPromptShown: false,
       bgOption: [
-        Background1,
-        Background2,
-        Background3,
-        Background4,
+        "/bg/background1.svg",
+        "/bg/background2.svg",
+        "/bg/background3.svg",
+        "/bg/background4.svg",
       ],
       topBg: [
-        topBg1,
-        topBg2,
-        topBg3,
-        topBg4
+        "/bg/topBg1.svg",
+        "/bg/topBg2.svg",
+        "/bg/topBg3.svg",
+        "/bg/topBg4.svg"
       ]
     };
   },
