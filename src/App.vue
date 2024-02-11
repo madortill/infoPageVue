@@ -71,16 +71,16 @@ export default {
       deferredPrompt: '',
       isPromptShown: false,
       bgOption: [
-        "/bg/background1.svg",
-        "/bg/background2.svg",
-        "/bg/background3.svg",
-        "/bg/background4.svg",
+        Background1,
+        Background2,
+        Background3,
+        Background4,
       ],
       topBg: [
-        "/bg/topBg1.svg",
-        "/bg/topBg2.svg",
-        "/bg/topBg3.svg",
-        "/bg/topBg4.svg"
+        topBg1,
+        topBg2,
+        topBg3,
+        topBg4
       ]
     };
   },
