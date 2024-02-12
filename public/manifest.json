@@ -1,7 +1,7 @@
 {
     "id": "/",
     "short_name": "קריית ההדרכה",
-    "name": "עלון מידע על קריית ההדרכה",
+    "name": "עלון מידע קריית ההדרכה",
     "description": "אתר המכיל בתוכו את כל המידע הנחוץ למשרתי קריית ההדרכה ע \"ש אריאל שרון",
     "dir": "rtl",
     "lang": "he",
@@ -16,21 +16,35 @@
         },
         {
             "src": "logosmall.png",
-            "sizes": "144x144",
+            "sizes": "144x144"
+        },
+        {
+            "src": "logo-mask-1024.png",
+            "sizes": "1024x1024",
             "purpose": "maskable"
         },
         {
-            "src": "logo-large-mask.png",
+            "src": "logo-mask-large.png",
             "sizes": "512x512",
             "purpose": "maskable"
         },
         {
-            "src": "logo-medium-mask.png",
+            "src": "logo-mask-384.png",
+            "sizes": "384x384",
+            "purpose": "maskable"
+        },
+        {
+            "src": "logo-mask-medium.png",
             "sizes": "256x256",
             "purpose": "maskable"
         },
         {
-            "src": "logo-small-mask.png",
+            "src": "logo-mask-192.png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "logo-mask-small.png",
             "sizes": "144x144",
             "purpose": "maskable"
         },
