@@ -38,14 +38,14 @@ export default {
     width: 100vw;
     height: auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
 }
 .mailbox {
     width: 100vw;
     height: auto;
-    margin-bottom: -1vh;
-
-    
+    margin-bottom: -1vh;  
 }
 
 .mail-text {
@@ -68,10 +68,12 @@ export default {
 }
 
 .madortill {
-    position: absolute;
-    bottom: 0;
     font-family: "assistantBold";
-    white-space: nowrap;
-    font-size: clamp(1vw, 1rem, 3.4vw);
+    text-align: center;
+    margin-top: -0.5rem;
+    padding: 0 0.1rem 0.4rem 0.1rem;
+    background-color:#5e9bfe;
+    width: 100vw;
+    background: linear-gradient(90deg, #5289fc 0%, #5a99ff 9%, #619cfc 89%, #5289fc 100%);
 }
 </style>

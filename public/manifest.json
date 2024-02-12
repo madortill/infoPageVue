@@ -51,7 +51,8 @@
         {
           "src": "favicon.png",
           "sizes": "any",
-          "type": "image/png"
+          "type": "image/png",
+          "purpose": "any"
         }
       ],
 
