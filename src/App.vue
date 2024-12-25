@@ -14,7 +14,7 @@
     <Equipment ref="equip" @goBack="goback" class="overflowx" />
     <Health ref="health" @goBack="goback" class="overflowx" />
     <Security ref="security" @goBack="goback" class="overflowx" />
-    <!-- <BaseMap ref="baseMap" @goBack="goback" class="overflowx" /> -->
+    <BaseMap ref="baseMap" @goBack="goback" class="overflowx" />
     <Contact ref="contact" class="overflowx" />
   </div>
 </template>
