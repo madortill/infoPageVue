@@ -15,6 +15,7 @@
                     שיקול דעת בביצוע המשימות היומיות שלהם. <br>
                     לנהלי בטיחות קריית ההדרכה כנס <a target="_blank" rel="noopener noreferrer" href="https://mador-till-prod.github.io/safety-cards-mifkada/code/index.html">לכאן</a>.<br>
                     בכל סוגיה ניתן לפנות לקצין הבטיחות שלמה <a href="tel:052-9247181">052-9247181.</a>
+                    רמ"ד בטיחות - סטס פיאטקובסקי <a href="tel:052-9280403">052-9280403</a>
                 </div>
             </div>
             <div class='securityCenter'>
