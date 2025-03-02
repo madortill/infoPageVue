@@ -42,8 +42,12 @@ jobs:
           npm ci
           npm run build --if-present
 
+      - name: Check if dist exists
+        run: |
+          if [ -d "./dist" ]; then echo "dist exists"; else echo "dist does not exist"; exit 1; fi
+
       - name: Upload artifact to gh-pages
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: github-pages
           path: ./dist
@@ -58,5 +62,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        with:
-          artifact_name: github-pages
