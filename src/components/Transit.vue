@@ -28,7 +28,7 @@
                         בקריית ההדרכה יש מערך היסעים נרחב המשרת את כלל חיילי הבסיס.
                         בשביל לנסוע בשאטל, יש להוריד את אפליקציית שאטל ולהירשם במהלך השבוע בכדי להבטיח את מקומכם.
                         <br>
-                        <a target="_blank" rel="noopener noreferrer" href="https://apple.co/3s8BG1A">להורדה לאייפון</a> <br><br>
+                        <a target="_blank" rel="noopener noreferrer" href="https://apple.co/3s8BG1A">להורדה לאייפון</a> <br>
                         <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/3scDS8n">להורדה לאנדרואיד</a> <br><br>
 
                         בימי חמישי + שישי ישנם שאטלים המסיעים את החיילים מקריית ההדרכה ל-26 מוקדים ברחבי הארץ. <br>
