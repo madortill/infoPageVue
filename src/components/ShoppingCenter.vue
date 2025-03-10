@@ -43,7 +43,7 @@
                     </span>
                 </div>
             </div>
-            <div class='gidronContainer keep-as-one'>
+            <!-- <div class='gidronContainer keep-as-one'>
                 <TitleButton>גידרון</TitleButton>
                 <div class='gidronText'>
                     מאפיה - כשר חלבי למהדרין <br>
@@ -58,7 +58,7 @@
                         ו'- 06:30-14:00
                     </p>
                 </div>
-            </div>
+            </div> -->
             <div class='shiftzurimContainer keep-as-one'>
                 <TitleButton>שיפצורים</TitleButton>
                 <div class='shifturText'>
