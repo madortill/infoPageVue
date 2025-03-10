@@ -8,7 +8,7 @@
             <div class='inside keep-as-one'>
                 <TitleButton>תוך קרייתי</TitleButton>
                 <div class='insideText'>
-                    <b class="title">ימים א'-ה' קו 747+</b>
+                    <b class="title">ימים א'-ה' קו 747</b>
                     קו אשר עובר ב-17 תחנות הפזורות ברחבי קריית ההדרכה ומסביב לה ומשרת את כלל חיילי הבסיס.
                     הקו פועל 
                     בין השעות <span class="nobreak">07:00-19:00</span>.
