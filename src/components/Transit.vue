@@ -8,15 +8,15 @@
             <div class='inside keep-as-one'>
                 <TitleButton>תוך קרייתי</TitleButton>
                 <div class='insideText'>
-                    <b class="title">יום א' 747+</b>
-                    יוצא כל 20 דקות מחניון השאטלים
-                    בין השעות <span class="nobreak">08:30-12:00</span>.
-                    עוצר בתחנות:
-                    מפקדת בה"ד 20, מבנה 534, מבנה 517 ומבנה 503.
+                    <b class="title">ימים א'-ה' קו 747+</b>
+                    קו אשר עובר ב-17 תחנות הפזורות ברחבי קריית ההדרכה ומסביב לה ומשרת את כלל חיילי הבסיס.
+                    הקו פועל 
+                    בין השעות <span class="nobreak">07:00-19:00</span>.
+                    ומבצע סבבים כל חצי שעה למעט הפסקת צהריים בשעה 12:00-13:00.
+                    ניתן לראות את הקו בלייב באפליקציית שאטל.
                     <br>
-                    <br>
-                    <b class="title">ימים ב'-ה' קו 747</b>
-                    קו אשר עובר ב-13 תחנות הפזורות ברחבי קריית ההדרכה ומשרת את כלל חיילי הבסיס
+                    
+                
                 </div>
             </div>
             <div class='outside keep-as-one'>
@@ -27,11 +27,19 @@
                         שאטל הינו שירות היסעים עבור חיילי צה"ל.
                         בקריית ההדרכה יש מערך היסעים נרחב המשרת את כלל חיילי הבסיס.
                         בשביל לנסוע בשאטל, יש להוריד את אפליקציית שאטל ולהירשם במהלך השבוע בכדי להבטיח את מקומכם.
-                        <a target="_blank" rel="noopener noreferrer" href="https://onelink.to/jq7h8k">להורדה</a> <br><br>
-                        בימי חמישי + שישי ישנם שאטלים המסיעים את החיילים מקריית ההדרכה ל-20 מוקדים ברחבי הארץ. <br>
-                        בימי ראשון ישנם 32 מוקדי איסוף מכל הארץ המסיעים את החיילים לקריית ההדרכה.<br>
+                        <br>
+                        <a target="_blank" rel="noopener noreferrer" href="https://apple.co/3s8BG1A">להורדה לאייפון</a> <br><br>
+                        <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/3scDS8n">להורדה לאנדרואיד</a> <br><br>
+
+                        בימי חמישי + שישי ישנם שאטלים המסיעים את החיילים מקריית ההדרכה ל-26 מוקדים ברחבי הארץ. <br>
+                         בימי ראשון ישנם 37 מוקדי איסוף מכל הארץ המסיעים את החיילים לקריית ההדרכה ומבצעים הורדה של חיילים בתחנות בתוך הבסיס:<br>
+                         חניון מרפאה <br>
+                         חניון בית כנסת מזרחי<br>
+                         חניון מגורים 521 <br>
+                         חניון מגורים 507 <br>
+                         <br>
                         <a class='link' target="_blank" rel="noopener noreferrer"
-                            href="https://drive.google.com/file/d/1Lq49ytTX-kpftVejXVa2G9eP0kYdf0FK/view?usp=drivesdk">הידעת
+                            href="https://www.canva.com/design/DAGC15xzHZQ/KU9oVumyVt8n4p7n4PTUBA/view?utm_content=DAGC15xzHZQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcb8f3a0787">הידעת
                             נסעת</a> - כל מה שצריך לדעת בדרך חזרה לבסיס!
                         <br>
                         <br>
@@ -40,7 +48,7 @@
                         <b class="title">תחבורה ציבורית</b>
                         מטרופולין קו 170 מגיע לש"ג המרכזי ולמרפ"א דרום מתחנה מרכזית באר שבע ולהפך.
                         תיקוף הנסיעה בתחבורה ציבורית מתבצע ע"י שימוש באפליקציית זוזו. <br>
-                        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1OX1FKziHBlVdEuIlrtNSwqpXNJJQvksd/view?usp=drivesdk">הסבר על אפליקצית זוזו</a><br>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.canva.com/design/DAFuQ84Oad0/_Cj8i-OvWwcJF1h5-tiTWQ/view?utm_content=DAFuQ84Oad0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h744b6dcff7">הסבר על אפליקצית זוזו</a><br>
                         שימו לב הקו לא פועל בעת שעות פעילות השאטלים.
                     </div>
 
