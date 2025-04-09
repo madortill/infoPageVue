@@ -250,7 +250,7 @@ export default {
     height: 60vh;
     /* position: relative;
     bottom: 85vh;
-    right: 45vw; */
+    right: 45vw; */ 
 }
 
 .genericText1 {
