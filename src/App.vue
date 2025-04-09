@@ -1,10 +1,30 @@
 <template>
-  <div class="body" :style="{ backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')' }">
-    <prompt v-show="isPromptShown" :deffered="deferredPrompt" @disappear="isPromptShown = false; deferredPrompt = null"/>
-    <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]">
-    <OpeningPage :currentBackgroundIndex="currentBackgroundIndex" @clickedArrow="clickedArrow" class="overflowx" />
+  <div
+    class="body"
+    :style="{
+      backgroundImage: 'url(' + bgOption[currentBackgroundIndex - 1] + ')',
+    }"
+  >
+    <prompt
+      v-show="isPromptShown"
+      :deffered="deferredPrompt"
+      @disappear="
+        isPromptShown = false;
+        deferredPrompt = null;
+      "
+    />
+    <img class="baseBgImg" :src="topBg[currentBackgroundIndex - 1]" />
+    <OpeningPage
+      :currentBackgroundIndex="currentBackgroundIndex"
+      @clickedArrow="clickedArrow"
+      class="overflowx"
+    />
     <Speech ref="speech" class="overflowx" />
-    <TableOfContent ref="table" @clickedSubject="clickedSubject" class="overflowx" />
+    <TableOfContent
+      ref="table"
+      @clickedSubject="clickedSubject"
+      class="overflowx"
+    />
     <Transit ref="buses" class="overflowx" />
     <FoodCourt ref="lunch" @goBack="goback" class="overflowx" />
     <Service ref="service" @goBack="goback" class="overflowx" />
@@ -15,37 +35,39 @@
     <Health ref="health" @goBack="goback" class="overflowx" />
     <Security ref="security" @goBack="goback" class="overflowx" />
     <BaseMap ref="baseMap" @goBack="goback" class="overflowx" />
+    <Construction ref="construction" @goBack="goback" class="overflowx" />
     <Contact ref="contact" class="overflowx" />
   </div>
 </template>
 
 <script>
-import OpeningPage from './components/OpeningPage.vue';
-import Speech from './components/Speech.vue';
-import TableOfContent from './components/TableOfContent.vue';
-import Transit from './components/Transit.vue';
-import FoodCourt from './components/FoodCourt.vue';
-import Service from './components/Service.vue';
-import Rabanut from './components/Rabanut.vue';
-import ShoppingCenter from './components/ShoppingCenter.vue';
-import Fittness from './components/Fitness.vue';
-import Equipment from './components/Equipment.vue';
-import Health from './components/Health.vue';
-import Security from './components/Security.vue';
-import Prompt from "./components/InstallationPrompt.vue"
+import OpeningPage from "./components/OpeningPage.vue";
+import Speech from "./components/Speech.vue";
+import TableOfContent from "./components/TableOfContent.vue";
+import Transit from "./components/Transit.vue";
+import FoodCourt from "./components/FoodCourt.vue";
+import Service from "./components/Service.vue";
+import Rabanut from "./components/Rabanut.vue";
+import ShoppingCenter from "./components/ShoppingCenter.vue";
+import Fittness from "./components/Fitness.vue";
+import Equipment from "./components/Equipment.vue";
+import Health from "./components/Health.vue";
+import Security from "./components/Security.vue";
+import Prompt from "./components/InstallationPrompt.vue";
+import Construction from "./components/Construction.vue";
 
-import Background1 from '/bg/background1.svg';
-import Background2 from '/bg/background2.svg';
-import Background3 from '/bg/background3.svg';
-import Background4 from '/bg/background4.svg';
+import Background1 from "/bg/background1.svg";
+import Background2 from "/bg/background2.svg";
+import Background3 from "/bg/background3.svg";
+import Background4 from "/bg/background4.svg";
 
-import topBg1 from '/bg/topBg1.svg';
-import topBg2 from '/bg/topBg2.svg';
-import topBg3 from '/bg/topBg3.svg';
-import topBg4 from '/bg/topBg4.svg';
+import topBg1 from "/bg/topBg1.svg";
+import topBg2 from "/bg/topBg2.svg";
+import topBg3 from "/bg/topBg3.svg";
+import topBg4 from "/bg/topBg4.svg";
 
-import Contact from './components/Contact.vue';
-import BaseMap from './BaseMap.vue';
+import Contact from "./components/Contact.vue";
+import BaseMap from "./BaseMap.vue";
 
 export default {
   components: {
@@ -63,56 +85,66 @@ export default {
     Security,
     Contact,
     BaseMap,
-    Prompt
+    Prompt,
+    Construction,
   },
   data() {
     return {
       currentBackgroundIndex: Math.floor(Math.random() * (5 - 1) + 1),
-      deferredPrompt: '',
+      deferredPrompt: "",
       isPromptShown: false,
-      bgOption: [
-        Background1,
-        Background2,
-        Background3,
-        Background4,
-      ],
-      topBg: [
-        topBg1,
-        topBg2,
-        topBg3,
-        topBg4
-      ]
+      bgOption: [Background1, Background2, Background3, Background4],
+      topBg: [topBg1, topBg2, topBg3, topBg4],
     };
   },
   computed: {
     currentBackground() {
-      return
-    }
+      return;
+    },
   },
   methods: {
+    // clickedSubject(refName) {
+    //   // const sections = { buses: this.$refs.buses, lunch: this.$refs.lunch, service: this.$refs.service, center: this.$refs.center, fitness: this.$refs.fitness, equip: this.$refs.equip, rabanut: this.$refs.rabanut, health: this.$refs.health, security: this.$refs.security };
+    //   this.$refs[refName].$el.scrollIntoView({ behavior: 'smooth' });
+    // },
+
     clickedSubject(refName) {
-      // const sections = { buses: this.$refs.buses, lunch: this.$refs.lunch, service: this.$refs.service, center: this.$refs.center, fitness: this.$refs.fitness, equip: this.$refs.equip, rabanut: this.$refs.rabanut, health: this.$refs.health, security: this.$refs.security };
-      this.$refs[refName].$el.scrollIntoView({ behavior: 'smooth' });
+      const section = this.$refs[refName];
+
+      if (!section) {
+        console.warn(`No component found with ref: ${refName}`);
+        return;
+      }
+
+      if (section.$el && typeof section.$el.scrollIntoView === "function") {
+        section.$el.scrollIntoView({ behavior: "smooth" });
+      } else if (typeof section.scrollIntoView === "function") {
+        section.scrollIntoView({ behavior: "smooth" });
+      } else {
+        console.warn(
+          `Cannot scroll to: ${refName}. No scrollable element found.`
+        );
+      }
     },
+
     clickedArrow() {
       console.log(this.$refs.speech);
-      this.$refs.speech.$el.scrollIntoView({ behavior: 'smooth' });
+      this.$refs.speech.$el.scrollIntoView({ behavior: "smooth" });
     },
     goback() {
-      this.$refs.table.$el.scrollIntoView({ behavior: 'smooth' });
-
+      this.$refs.table.$el.scrollIntoView({ behavior: "smooth" });
     },
   },
   created() {
-    window.addEventListener('beforeinstallprompt', (e) => {
+    window.addEventListener("beforeinstallprompt", (e) => {
       // Prevents the default mini-infobar or install dialog from appearing on mobile
       e.preventDefault();
       // Save the event because you'll need to trigger it later.
       this.deferredPrompt = e;
       this.isPromptShown = true;
-    })
-  }
-}
+    });
+  },
+};
 </script>
 
 <style>
