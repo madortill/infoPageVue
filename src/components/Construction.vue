@@ -1,7 +1,7 @@
 <template>
   <div class="construction">
     <div class="titleContainer">
-      <img src="@/assets/tools.svg" alt="health" class="healthIcon" />
+      <img src="@/assets/tools.svg" alt="construction" class="constructionIcon" />
       <div class="titleNameHealth">בינוי</div>
     </div>
     <img
@@ -10,8 +10,8 @@
       class="backArrow"
       @click="$emit('goBack')"
     />
-    <div class="healthTextContainer">
-      <div class="healthCenter">
+    <div class="constructionTextContainer">
+      <div class="constructionCenter">
         <TitleButton>בינוי</TitleButton>
         <div class="centerText">
           בקריית ההדרכה כל מענה הבינוי והתשתיות ניתן ע"י הזכיין, בבקרה של יחידת
@@ -41,7 +41,6 @@
         </div>
       </div>
     </div>
-    <img src="@/assets/baseMap.svg" alt="base" class="baseLastPic" />
   </div>
 </template>
 
@@ -64,7 +63,7 @@ export default {
   overflow: hidden;
 }
 
-.healthIcon {
+.constructionIcon {
   height: 4vh;
   width: 10vw;
   margin-right: 1vw;
@@ -86,7 +85,7 @@ export default {
   max-width: 75vw;
 }
 
-.healthTextContainer {
+.constructionTextContainer {
   margin-right: 8vw;
 }
 

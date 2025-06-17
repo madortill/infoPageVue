@@ -15,7 +15,7 @@
         <div class="theSpeach signature">
             <!-- בברכה, <br> -->
             <p class="line1">בברכה,</p>
-            ערן כהן,<p class="line2">אל"ם</p><br>
+            דודו בר עוז ,<p class="line2">אל"ם</p><br>
             מפקד קריית ההדרכה 
         </div>
         <img src="@/assets/building.svg" alt="building" class='building' />

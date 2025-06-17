@@ -66,7 +66,6 @@
                 </div>
             </div>
         </div>
-        <img src="@/assets/baseMap.svg" alt="base" class='baseLastPic' />
     </div>
 </template>
 

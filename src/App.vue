@@ -34,8 +34,9 @@
     <Equipment ref="equip" @goBack="goback" class="overflowx" />
     <Health ref="health" @goBack="goback" class="overflowx" />
     <Security ref="security" @goBack="goback" class="overflowx" />
-    <BaseMap ref="baseMap" @goBack="goback" class="overflowx" />
     <Construction ref="construction" @goBack="goback" class="overflowx" />
+    <BaseMap ref="baseMap" @goBack="goback" class="overflowx" />
+    <Emergency ref="emergency" @goBack="goback" class="overflowx" />
     <Contact ref="contact" class="overflowx" />
   </div>
 </template>
@@ -55,6 +56,7 @@ import Health from "./components/Health.vue";
 import Security from "./components/Security.vue";
 import Prompt from "./components/InstallationPrompt.vue";
 import Construction from "./components/Construction.vue";
+import Emergency from "./components/Emergency.vue";
 
 import Background1 from "/bg/background1.svg";
 import Background2 from "/bg/background2.svg";
@@ -87,6 +89,7 @@ export default {
     BaseMap,
     Prompt,
     Construction,
+    Emergency
   },
   data() {
     return {

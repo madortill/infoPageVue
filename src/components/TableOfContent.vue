@@ -13,6 +13,7 @@
             <img src="@/assets/securityButton.svg" alt="security" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/constructionButton.svg" alt="construction" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
             <img src="@/assets/mapButton.svg" alt="baseMap" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
+            <img src="@/assets/emergencyButton.svg" alt="emergency" class='buttons' @click="(e) => $emit('clickedSubject', e.currentTarget.alt)" />
         </div>
     </div>
 </template>
