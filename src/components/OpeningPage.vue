@@ -3,7 +3,8 @@
         <div className="topContainer">
             <img :src="titleOption[`title${currentBackgroundIndex}`]" alt="title" className='title' />
             <img src="@/assets/logo.png" alt="logo" className='logo' />
-            <img src="@/assets/slogan.png" alt="slogan" className='slogan' />
+            <!-- <img src="@/assets/slogan.png" alt="slogan" className='slogan' /> -->
+            <h1 className='slogan-2'>"בונים ערך - מובילים דרך"</h1>
             <!-- <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/uJEyMlyIWlY?si=14wo5WJtUXc9XzUG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> -->
                 <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/4510X0GG7Fc?si=M_414tkM_VlmFDks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -89,4 +90,25 @@ export default {
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
+
+.slogan-2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #2f486b, #00a3e6); /* רקע מדורג */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* צל של הקופסה */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* צל של הטקסט */
+  direction: rtl;
+  max-width: fit-content;
+  margin: 2rem auto;
+  transition: transform 0.3s ease;
+}
+
+.slogan-2:hover {
+  transform: scale(1.05);
+}
+
 </style>
