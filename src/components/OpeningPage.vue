@@ -104,11 +104,6 @@ export default {
   direction: rtl;
   max-width: fit-content;
   margin: 2rem auto;
-  transition: transform 0.3s ease;
-}
-
-.slogan-2:hover {
-  transform: scale(1.05);
 }
 
 </style>
